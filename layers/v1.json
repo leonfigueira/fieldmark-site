@@ -1,5 +1,12 @@
 {
   "version": 1,
   "disabled": [],
-  "layers": []
+  "layers": [],
+  "withheld": [
+    {
+      "id": "sc_carbonpeat",
+      "reason": "NatureScot publishes the Carbon and Peatland 2016 map under the UK Non-Commercial Government Licence, which bars commercial use. Withheld until NatureScot confirms an open re-use grant.",
+      "publisherURL": "https://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/"
+    }
+  ]
 }
