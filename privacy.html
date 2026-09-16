@@ -14,7 +14,7 @@ h1{font-size:28px} h2{font-size:20px;margin-top:28px} a{color:#0a84ff}
 </head>
 <body>
 <h1>Merestone - Privacy Policy</h1>
-<p class="muted">Effective 12 September 2026, updated 13 September 2026 for Merestone 2.3</p>
+<p class="muted">Effective 12 September 2026, updated 13 September 2026 for Merestone 2.3, updated 16 September 2026</p>
 
 <p><strong>Merestone needs no account and collects no personal data unless you choose to sign in.</strong>
 There are no analytics, no advertising and no tracking of any kind. The optional Merestone account,
@@ -23,7 +23,8 @@ and exactly what it stores, is described below.</p>
 <h2>Your location</h2>
 <p>If you allow location access, your position is used on your device to centre the map, show grid
 references, and (on Apple Watch) find the designations around you. It is never stored by Merestone
-or sent to me.</p>
+or sent to me. When you search around your position (on the phone or the Watch), the search circle
+around it is what the publishers' services receive.</p>
 
 <h2>Map data requests</h2>
 <p>Merestone streams its layers directly from the official public services that publish them,
@@ -54,9 +55,14 @@ Environment, the Federal Office of Culture, the Federal Office for Civil Protect
 Office, the Federal Office for Spatial Development and the other federal offices it publishes for),
 geodienste.ch for the cantons' data, and the European Environment Agency.</li>
 </ul>
+<p>Species layers ask GBIF (the Global Biodiversity Information Facility, gbif.org) for records inside
+the area on screen. Some agencies publish through Esri's ArcGIS Online cloud (services.arcgis.com); those
+requests go to Esri on the agency's behalf and are subject to Esri's privacy policy.</p>
 <p>When the app requests data, the service being asked receives the same standard information any
-map app sends: your IP address and the area of the map being loaded. It only ever hears from you for
-layers you have switched on. Merestone adds nothing to identify you, and none of those requests pass
+map app sends: your IP address and the area of the map being loaded. A service is contacted when you
+switch on one of its layers, run a search (by name, or around a point, including from the Watch),
+download a layer for offline use, or open the server status screen. It receives the map area or search
+circle, and for a name search the text you typed. Merestone adds nothing to identify you, and none of those requests pass
 through any server of mine. The app also downloads two small public files from this site (the list of
 layer updates and service notices), which carry nothing about you.</p>
 
@@ -74,7 +80,8 @@ handled entirely by Apple. I receive no personal information about you from them
 <p>You never need an account to use or buy Merestone. If you choose to sign in (Settings, Merestone
 account), the app sends your email address to merestonemaps.com, which emails you a six-digit code.
 The app keeps the resulting sign-in token in your device's keychain. merestonemaps.com stores your
-email address, the date you signed in, your language and a record of each sign-in session. What an
+email address, the date you signed in, your language, a record of each sign-in session, the IP address
+of the request (kept up to a day) and the app version. What an
 account holds on merestonemaps.com (a purchase made on the website) then also unlocks in the app.</p>
 <p>If you choose to link your App Store purchases, the app sends Apple's signed record of each one to
 merestonemaps.com: the transaction number, the product, the purchase date, a subscription's end date,
@@ -83,12 +90,15 @@ renewals of those purchases, and they are checked with Apple each night. This is
 Account, your name or your payment details, and it is used only so the same purchases work on
 merestonemaps.com.</p>
 <p>You can sign out at any time, and delete the account and everything it holds from Settings in the
-app or from your account page on merestonemaps.com. The full details of what the website stores are in
+app or from your account page on merestonemaps.com. merestonemaps.com is hosted by Cloudflare; sign-in
+emails are sent through Resend. The full details of what the website stores are in
 the <a href="https://merestonemaps.com/privacy/">merestonemaps.com privacy policy</a>.</p>
 
 <h2>Contact</h2>
 <p>Questions, or a request to see or delete what is held about you? Email
 <a href="mailto:leonfigueira@gmail.com">leonfigueira@gmail.com</a>.</p>
+<p>Send feedback opens an email to me with your app version, device model, OS version, language, and
+which countries you have unlocked, so I can reproduce the problem. You see it before you send it.</p>
 
 <p class="muted">Merestone is made by Leon Figueira. Contains public sector information licensed
 under the Open Government Licence v3.0.</p>
