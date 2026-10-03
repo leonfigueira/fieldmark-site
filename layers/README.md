@@ -13,6 +13,18 @@ generalised zoning, Baden-Württemberg's designated medicinal-spring protection
 areas and extreme-flood map, and Tirol's Bannwald, monuments, townscape and geotopes.
 These additions are not available in the released v1 app.
 
+The v1 feed also corrects six existing report strings in all eleven translated
+languages: introductions and figure notes refer to the itemised list and its
+disclosed export limits, totals clarify counting per dataset, and the bookmark
+means itemised records. These exact old keys are present in the released 2.6
+catalogue. Its signed replace-only channel accepts the corrections; English is
+excluded by the released parser and requires the candidate app update. Native
+released-source language-bundle lookups and actual reports verify the translated
+corrections. This wording update does not repair source outages or the older
+PDF pagination/cross-reference defects. Clients fetch updates for a subsequent
+launch, subject to the existing freshness rules. v2 already uses corrected new
+compiled keys and receives no redundant legacy-key overrides.
+
 ## Publishing
 
 Publish JSON and `.sig` together in one commit. The sidecar is a base64 Ed25519
