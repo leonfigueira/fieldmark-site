@@ -1,0 +1,525 @@
+{
+  "version": 2,
+  "disabled": [],
+  "layers": [
+    {
+      "id": "sc_hmpa",
+      "title": "Historic Marine Protected Areas (Scotland)",
+      "group": "Designations",
+      "subgroup": "Heritage",
+      "nation": "sc",
+      "source": {
+        "type": "arcgis",
+        "base": "https://inspire.hes.scot/arcgis/rest/services/HES/Historic_Marine_Protected_Areas/MapServer",
+        "layer": 0,
+        "heavy": false
+      },
+      "colorHex": "#94506F",
+      "fillOpacity": 0.22,
+      "minZoom": 10,
+      "titleFields": [
+        "DES_TITLE",
+        "ENT_TITLE"
+      ],
+      "subtitleFields": [
+        "ENT_TITLE"
+      ],
+      "linkField": "LINK",
+      "headlines": [
+        {
+          "label": "Designation",
+          "field": "DES_REF"
+        },
+        {
+          "label": "Designated",
+          "field": "DESIGNATED"
+        }
+      ],
+      "explainer": "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.",
+      "attribution": "Contains Historic Environment Scotland and Ordnance Survey data © Historic Environment Scotland - Scottish Charity No. SC045925 © Crown copyright and database right 2026. Open Government Licence v3.0",
+      "oidField": "FID",
+      "nonPageable": true,
+      "inBufferSearch": true,
+      "guidanceURL": "https://www.historicenvironment.scot/protect-and-care/protected-historic-places/historic-marine-protected-areas/"
+    },
+    {
+      "id": "sc_wetland_inventory",
+      "title": "Scottish Wetland Inventory",
+      "group": "Habitats",
+      "subgroup": "Wetland",
+      "nation": "sc",
+      "source": {
+        "type": "arcgis",
+        "base": "https://map.sepa.org.uk/server/rest/services/Open/Habitats_and_Biotopes/MapServer",
+        "layer": 0,
+        "heavy": true
+      },
+      "colorHex": "#3D8583",
+      "fillOpacity": 0.2,
+      "minZoom": 12,
+      "titleFields": [
+        "site_name",
+        "wfd95type"
+      ],
+      "subtitleFields": [
+        "wfd95type",
+        "wfd95sub"
+      ],
+      "headlines": [
+        {
+          "label": "Source",
+          "field": "source"
+        },
+        {
+          "label": "Vegetation",
+          "field": "nvc1"
+        }
+      ],
+      "explainer": "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.",
+      "attribution": "© Scottish Environment Protection Agency. Contains public sector information licensed under the Open Government Licence v3.0.",
+      "oidField": "objectid",
+      "inBufferSearch": false,
+      "guidanceURL": "https://www.sepa.org.uk/environment/environmental-data/"
+    },
+    {
+      "id": "ie_zoning",
+      "title": "Current Development Plans: Generalised Zoning Types",
+      "group": "Designations",
+      "subgroup": "Planning",
+      "nation": "ie",
+      "source": {
+        "type": "arcgis",
+        "base": "https://services.arcgis.com/NzlPQPKn5QF9v2US/arcgis/rest/services/GZT_Current_Plan/FeatureServer",
+        "layer": 0,
+        "heavy": true,
+        "filter": "CURRENT_PLAN = 1"
+      },
+      "colorHex": "#957B50",
+      "fillOpacity": 0.18,
+      "minZoom": 13,
+      "titleFields": [
+        "PLAN_NAME",
+        "ZONE_ORIG"
+      ],
+      "subtitleFields": [
+        "ZONE_ORIG",
+        "GZT_DESC"
+      ],
+      "linkField": "ZONE_LINK",
+      "headlines": [
+        {
+          "label": "Zone",
+          "field": "ZONE_DESC"
+        },
+        {
+          "label": "Local authority",
+          "field": "LA_NAME"
+        },
+        {
+          "label": "From",
+          "field": "PLAN_FROM"
+        },
+        {
+          "label": "Until",
+          "field": "PLAN_TO"
+        }
+      ],
+      "explainer": "Generalised Zoning Types from current local authority development plans, compiled by DHLGH. Categories are harmonised for national comparison and do not replace the adopted plan. Check the linked local authority plan, its zoning map and written statement before relying on a site's zoning.",
+      "attribution": "© Department of Housing, Local Government and Heritage, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Geometry simplified for map display.",
+      "inBufferSearch": true,
+      "guidanceURL": "https://www.myplan.ie/"
+    },
+    {
+      "id": "de_bw_quellenschutz",
+      "title": "Heilquellenschutzgebiete (Baden-Württemberg)",
+      "group": "Designations",
+      "subgroup": "Wasser",
+      "nation": "de",
+      "source": {
+        "type": "arcgis",
+        "base": "https://rips-gdi.lubw.baden-wuerttemberg.de/arcgis/rest/services/wfs/Quellenschutzgebiet/MapServer",
+        "layer": 0,
+        "heavy": true,
+        "filter": "STATUS_LANGNAME = 'festgesetzt'"
+      },
+      "colorHex": "#3488B5",
+      "fillOpacity": 0.16,
+      "minZoom": 9,
+      "titleFields": [
+        "LANGNAME"
+      ],
+      "subtitleFields": [
+        "DIENSTSTELLE"
+      ],
+      "headlines": [
+        {
+          "label": "Status",
+          "field": "STATUS_LANGNAME"
+        },
+        {
+          "label": "Protection plan",
+          "field": "RECHTSVERORDNUNG"
+        },
+        {
+          "label": "Reference",
+          "field": "QSG_LFU_NR"
+        }
+      ],
+      "explainer": "Festgesetzte Heilquellenschutzgebiete. Gezeigt wird die Außengrenze, nicht die einzelnen Schutzzonen. Maßgeblich ist die Schutzgebietsverordnung.",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg.",
+      "inBufferSearch": true,
+      "guidanceURL": "https://www.lubw.baden-wuerttemberg.de/umweltinformationssystem/nutzungsvereinbarung",
+      "translations": {
+        "de": {
+          "Festgesetzte Heilquellenschutzgebiete. Gezeigt wird die Außengrenze, nicht die einzelnen Schutzzonen. Maßgeblich ist die Schutzgebietsverordnung.": "Festgesetzte Heilquellenschutzgebiete. Gezeigt wird die Außengrenze, nicht die einzelnen Schutzzonen. Maßgeblich ist die Schutzgebietsverordnung."
+        },
+        "en": {
+          "Festgesetzte Heilquellenschutzgebiete. Gezeigt wird die Außengrenze, nicht die einzelnen Schutzzonen. Maßgeblich ist die Schutzgebietsverordnung.": "Designated medicinal-spring protection areas. This map shows the outer boundary, not individual protection zones; the protection order determines the restrictions."
+        }
+      }
+    },
+    {
+      "id": "at_tirol_bannwald",
+      "title": "Bannwald und Erholungswald (Tirol)",
+      "group": "Designations",
+      "subgroup": "Wald",
+      "nation": "at",
+      "source": {
+        "type": "arcgis",
+        "base": "https://gis.tirol.gv.at/arcgis/rest/services/Service_Public/ogd_wald/MapServer",
+        "layer": 8,
+        "heavy": false
+      },
+      "colorHex": "#346B3D",
+      "fillOpacity": 0.2,
+      "minZoom": 10,
+      "titleFields": [
+        "BEZEICHNUNG"
+      ],
+      "subtitleFields": [
+        "NAME",
+        "INDEX_"
+      ],
+      "linkField": "LINK_BESCHEID",
+      "headlines": [
+        {
+          "label": "Updated",
+          "field": "STAND"
+        }
+      ],
+      "explainer": "Bannwald und erklärte Erholungswälder im Tiroler Kataster. Maßgeblich ist der verlinkte Bescheid.",
+      "inBufferSearch": true,
+      "guidanceURL": "https://www.tirol.gv.at/umwelt/wald/schutzwald/",
+      "attribution": "Datenquelle: Land Tirol - data.tirol.gv.at, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Geometrie für die Kartenanzeige vereinfacht / Geometry simplified for map display.",
+      "translations": {
+        "de": {
+          "Bannwald und erklärte Erholungswälder im Tiroler Kataster. Maßgeblich ist der verlinkte Bescheid.": "Bannwald und erklärte Erholungswälder im Tiroler Kataster. Maßgeblich ist der verlinkte Bescheid."
+        },
+        "en": {
+          "Bannwald und erklärte Erholungswälder im Tiroler Kataster. Maßgeblich ist der verlinkte Bescheid.": "Designated Bannwald and declared recreational forests in Tirol's register. Check the linked official decision for the boundary and restrictions."
+        }
+      }
+    },
+    {
+      "id": "at_tirol_denkmalschutz",
+      "title": "Denkmalschutz (Tirol)",
+      "group": "Designations",
+      "subgroup": "Denkmalschutz und Archäologie",
+      "nation": "at",
+      "source": {
+        "type": "arcgis",
+        "base": "https://gis.tirol.gv.at/arcgis/rest/services/Service_Public/ogd_raumordnung/MapServer",
+        "layer": 64,
+        "heavy": false
+      },
+      "kind": "point",
+      "colorHex": "#94506F",
+      "fillOpacity": 0.25,
+      "minZoom": 12,
+      "titleFields": [
+        "OBJEKTBEZEICHNUNG",
+        "VULGONAME"
+      ],
+      "subtitleFields": [
+        "GEMNAME",
+        "ADRESSE"
+      ],
+      "linkField": "LINK_GEOLAND",
+      "headlines": [
+        {
+          "label": "Protection",
+          "field": "SCHUTZSTATUS"
+        },
+        {
+          "label": "Date",
+          "field": "DATIERUNG"
+        }
+      ],
+      "explainer": "Denkmalgeschützte Objekte des Tiroler Kunstkatasters als Punkte, keine Grundstücksgrenzen. Das verlinkte Datenblatt gibt weitere Informationen.",
+      "inBufferSearch": true,
+      "guidanceURL": "https://www.tirol.gv.at/kunst-kultur/kunstkataster/",
+      "attribution": "Datenquelle: Land Tirol - data.tirol.gv.at, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Geometrie für die Kartenanzeige vereinfacht / Geometry simplified for map display.",
+      "translations": {
+        "de": {
+          "Denkmalgeschützte Objekte des Tiroler Kunstkatasters als Punkte, keine Grundstücksgrenzen. Das verlinkte Datenblatt gibt weitere Informationen.": "Denkmalgeschützte Objekte des Tiroler Kunstkatasters als Punkte, keine Grundstücksgrenzen. Das verlinkte Datenblatt gibt weitere Informationen."
+        },
+        "en": {
+          "Denkmalgeschützte Objekte des Tiroler Kunstkatasters als Punkte, keine Grundstücksgrenzen. Das verlinkte Datenblatt gibt weitere Informationen.": "Protected monuments from Tirol's cultural inventory, shown as points rather than parcel boundaries. Consult the linked record for details."
+        }
+      }
+    },
+    {
+      "id": "at_tirol_ortsbildschutz",
+      "title": "Stadt- und Ortsbildschutz (Tirol)",
+      "group": "Designations",
+      "subgroup": "Denkmalschutz und Archäologie",
+      "nation": "at",
+      "source": {
+        "type": "arcgis",
+        "base": "https://gis.tirol.gv.at/arcgis/rest/services/Service_Public/ogd_raumordnung/MapServer",
+        "layer": 65,
+        "heavy": true
+      },
+      "colorHex": "#805180",
+      "fillOpacity": 0.22,
+      "minZoom": 12,
+      "titleFields": [
+        "GEMNAME",
+        "NAME"
+      ],
+      "subtitleFields": [
+        "NAME"
+      ],
+      "linkField": "LINK",
+      "headlines": [
+        {
+          "label": "Category",
+          "field": "OBJEKT"
+        },
+        {
+          "label": "Updated",
+          "field": "STAND"
+        }
+      ],
+      "explainer": "Schutzzonen, Sichtzonen und geschützte Gebäude im Tiroler Stadt- und Ortsbildschutzkataster. Maßgeblich sind die jeweiligen Schutzbestimmungen.",
+      "inBufferSearch": true,
+      "guidanceURL": "https://www.tirol.gv.at/bauen-wohnen/bauordnung/stadt-und-ortsbildschutz/",
+      "attribution": "Datenquelle: Land Tirol - data.tirol.gv.at, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Geometrie für die Kartenanzeige vereinfacht / Geometry simplified for map display.",
+      "translations": {
+        "de": {
+          "Schutzzonen, Sichtzonen und geschützte Gebäude im Tiroler Stadt- und Ortsbildschutzkataster. Maßgeblich sind die jeweiligen Schutzbestimmungen.": "Schutzzonen, Sichtzonen und geschützte Gebäude im Tiroler Stadt- und Ortsbildschutzkataster. Maßgeblich sind die jeweiligen Schutzbestimmungen."
+        },
+        "en": {
+          "Schutzzonen, Sichtzonen und geschützte Gebäude im Tiroler Stadt- und Ortsbildschutzkataster. Maßgeblich sind die jeweiligen Schutzbestimmungen.": "Zones and protected buildings in Tirol's townscape protection register. Check the applicable protection provisions before planning works."
+        }
+      }
+    },
+    {
+      "id": "at_tirol_geotope",
+      "title": "Geotope (Tirol)",
+      "group": "Landscape",
+      "subgroup": "Geologie",
+      "nation": "at",
+      "source": {
+        "type": "arcgis",
+        "base": "https://services3.arcgis.com/hG7UfxX49PQ8XkXh/arcgis/rest/services/Geotope/FeatureServer",
+        "layer": 0,
+        "heavy": true
+      },
+      "colorHex": "#977447",
+      "fillOpacity": 0.16,
+      "minZoom": 10,
+      "titleFields": [
+        "NAME"
+      ],
+      "subtitleFields": [
+        "QUELLE"
+      ],
+      "linkField": "GEOTOPTEXT",
+      "headlines": [
+        {
+          "label": "Updated",
+          "field": "STAND"
+        },
+        {
+          "label": "Reference",
+          "field": "LNUMMER"
+        }
+      ],
+      "explainer": "Geologisch bedeutende Gebiete aus dem Tiroler Geotopinventar. Ein fachliches Inventar, keine eigene Schutzgebietsausweisung; weitere Schutzbestimmungen können gelten.",
+      "inBufferSearch": true,
+      "guidanceURL": "https://geoportal.inspire.gv.at/metadatensuche/tiris/ger/catalog.search#/metadata/a278b62d-3e0c-4fde-980f-28ba1e55dd79",
+      "attribution": "Datenquelle: Land Tirol - data.tirol.gv.at, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/). Geometrie für die Kartenanzeige vereinfacht / Geometry simplified for map display.",
+      "translations": {
+        "de": {
+          "Geologisch bedeutende Gebiete aus dem Tiroler Geotopinventar. Ein fachliches Inventar, keine eigene Schutzgebietsausweisung; weitere Schutzbestimmungen können gelten.": "Geologisch bedeutende Gebiete aus dem Tiroler Geotopinventar. Ein fachliches Inventar, keine eigene Schutzgebietsausweisung; weitere Schutzbestimmungen können gelten.",
+          "Geologie": "Geologie"
+        },
+        "en": {
+          "Geologisch bedeutende Gebiete aus dem Tiroler Geotopinventar. Ein fachliches Inventar, keine eigene Schutzgebietsausweisung; weitere Schutzbestimmungen können gelten.": "Areas of geological interest in Tirol's geotope inventory. This inventory does not itself designate protection; other protections may overlap.",
+          "Geologie": "Geology"
+        },
+        "de-CH": {
+          "Geologie": "Geologie"
+        },
+        "es": {
+          "Geologie": "Geología"
+        },
+        "pt-PT": {
+          "Geologie": "Geologia"
+        },
+        "fr": {
+          "Geologie": "Géologie"
+        },
+        "nl": {
+          "Geologie": "Geologie"
+        },
+        "it": {
+          "Geologie": "Geologia"
+        },
+        "pl": {
+          "Geologie": "Geologia"
+        },
+        "sv": {
+          "Geologie": "Geologi"
+        },
+        "nb": {
+          "Geologie": "Geologi"
+        },
+        "fi": {
+          "Geologie": "Geologia"
+        }
+      }
+    },
+    {
+      "id": "de_bw_hqextrem",
+      "title": "Überflutungsflächen HWextrem (Baden-Württemberg)",
+      "group": "Designations",
+      "subgroup": "Hochwasser",
+      "nation": "de",
+      "source": {
+        "type": "arcgisImage",
+        "base": "https://hochwasserdienste.lubw.baden-wuerttemberg.de/arcgis/rest/services/hwgk/UF/MapServer",
+        "layers": [
+          5
+        ]
+      },
+      "minZoom": 14,
+      "titleFields": [
+        "NAME",
+        "OBJECTID"
+      ],
+      "titleNoun": "Überflutungsfläche",
+      "colorHex": "#579CCF",
+      "explainer": "Überflutungsflächen bei einem extremen Hochwasser, als Kartenbild ohne Entfernungssuche oder Offline-Kopie. Änderungen und Fortschreibungsvorhaben können den Karten vorausgehen; prüfen Sie die aktuelle Fachkarte der LUBW und die Hinweise der zuständigen Wasserbehörde.",
+      "translations": {
+        "de": {
+          "Überflutungsflächen bei einem extremen Hochwasser, als Kartenbild ohne Entfernungssuche oder Offline-Kopie. Änderungen und Fortschreibungsvorhaben können den Karten vorausgehen; prüfen Sie die aktuelle Fachkarte der LUBW und die Hinweise der zuständigen Wasserbehörde.": "Überflutungsflächen bei einem extremen Hochwasser, als Kartenbild ohne Entfernungssuche oder Offline-Kopie. Änderungen und Fortschreibungsvorhaben können den Karten vorausgehen; prüfen Sie die aktuelle Fachkarte der LUBW und die Hinweise der zuständigen Wasserbehörde."
+        },
+        "en": {
+          "Überflutungsflächen bei einem extremen Hochwasser, als Kartenbild ohne Entfernungssuche oder Offline-Kopie. Änderungen und Fortschreibungsvorhaben können den Karten vorausgehen; prüfen Sie die aktuelle Fachkarte der LUBW und die Hinweise der zuständigen Wasserbehörde.": "Extreme-flood extents, published as a map image with no distance search or offline copy. Changes and planned revisions may precede updates to these maps; consult LUBW’s current specialist map and the responsible water authority."
+        }
+      },
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg.",
+      "guidanceURL": "https://www.hochwasser.baden-wuerttemberg.de/hochwassergefahrenkarten"
+    }
+  ],
+  "withheld": [
+    {
+      "id": "sc_carbonpeat",
+      "reason": "NatureScot publishes the Carbon and Peatland 2016 map under the UK Non-Commercial Government Licence, which bars commercial use. Withheld until NatureScot confirms an open re-use grant.",
+      "publisherURL": "https://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/"
+    }
+  ],
+  "patches": [
+    {
+      "id": "de_bw_uesg_hq100",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_uesg_rvo",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_ffh_maehwiese",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_naturdenkmal_f",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_wsg",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_ramsar",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_naturraum",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    }
+  ],
+  "offlineEstimates": {
+    "sc_hmpa": 1,
+    "sc_wetland_inventory": 450,
+    "ie_zoning": 258,
+    "de_bw_quellenschutz": 1,
+    "at_tirol_bannwald": 1,
+    "at_tirol_denkmalschutz": 7,
+    "at_tirol_ortsbildschutz": 3,
+    "at_tirol_geotope": 1
+  },
+  "presetAdds": [
+    {
+      "preset": "coastal",
+      "add": [
+        "sc_hmpa"
+      ]
+    },
+    {
+      "preset": "wetland",
+      "add": [
+        "sc_wetland_inventory"
+      ]
+    },
+    {
+      "preset": "ie_deskstudy",
+      "add": [
+        "ie_zoning"
+      ]
+    },
+    {
+      "preset": "de_wasser",
+      "add": [
+        "de_bw_quellenschutz"
+      ]
+    },
+    {
+      "preset": "at_wald_wild_jagd",
+      "add": [
+        "at_tirol_bannwald"
+      ]
+    },
+    {
+      "preset": "at_denkmal_archaeologie",
+      "add": [
+        "at_tirol_denkmalschutz",
+        "at_tirol_ortsbildschutz"
+      ]
+    },
+    {
+      "preset": "at_wasser_boden",
+      "add": [
+        "at_tirol_geotope"
+      ]
+    },
+    {
+      "preset": "de_wasser",
+      "add": [
+        "de_bw_hqextrem"
+      ]
+    }
+  ]
+}

@@ -8,5 +8,35 @@
       "reason": "NatureScot publishes the Carbon and Peatland 2016 map under the UK Non-Commercial Government Licence, which bars commercial use. Withheld until NatureScot confirms an open re-use grant.",
       "publisherURL": "https://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/"
     }
+  ],
+  "patches": [
+    {
+      "id": "de_bw_uesg_hq100",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_uesg_rvo",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_ffh_maehwiese",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_naturdenkmal_f",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_wsg",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_ramsar",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    },
+    {
+      "id": "de_bw_naturraum",
+      "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg."
+    }
   ]
 }
