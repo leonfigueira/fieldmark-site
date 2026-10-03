@@ -2,7 +2,9 @@
 
 `v1.json` serves released clients. Its 3 October 2026 update corrects the required
 UIS attribution for seven existing Baden-Württemberg layers. It preserves the
-NatureScot Carbon and Peatland non-commercial hold. It adds no new layers.
+NatureScot Carbon and Peatland non-commercial hold. It adds no new layers. A later 3 October correction clarifies the scope of the three
+existing French pipeline layers in all twelve languages. The explanation patches
+do not restore the failing source or provide SUP2/SUP3 coverage or precise routes.
 
 `v2.json` is for the forthcoming app build that polls v2. Older apps never request
 it. It contains nine additions whose primary licences and services were checked:
@@ -52,6 +54,6 @@ to every download total and warning; do not claim estimates are measured downloa
 New-layer text and estimates remain attached to cached definitions; existing-layer
 corrections retain the 90-day expiry. No executable code is downloaded.
 
-Before release, complete any publisher notice required by the reuse terms. Tirol's
-terms request notification to opendata@tirol.gv.at; the private research audit records
-the outstanding notification and ready-to-send text. No email was sent by this task.
+Before release, complete any publisher notice required by the reuse terms. The
+Tirol notification was sent on 3 October 2026 with Leon's specific permission; the
+private audit retains the sent-message receipt. This does not authorise other mail.
