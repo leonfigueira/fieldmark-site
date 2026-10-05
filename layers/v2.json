@@ -572,5 +572,27 @@
         "de_bw_hqextrem"
       ]
     }
-  ]
+  ],
+  "endpoints": [
+    {
+      "id": "be_wal_compensation_eolien",
+      "type": "arcgis",
+      "base": "https://merestonemaps.com/api/backups/arcgis/v1/be_wal_compensation_eolien/MapServer",
+      "layer": 0
+    }
+  ],
+  "publisherDates": [
+    {
+      "id": "be_wal_compensation_eolien",
+      "date": "2025-06-15",
+      "source": {
+        "kind": "arcgis",
+        "url": "https://merestonemaps.com/api/backups/arcgis/v1/be_wal_compensation_eolien/MapServer",
+        "layer": 0,
+        "heavy": false,
+        "filter": "DATE_FIN IS NULL"
+      }
+    }
+  ],
+  "minAppVersion": "2.6.1"
 }
