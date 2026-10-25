@@ -579,6 +579,186 @@
       "type": "arcgis",
       "base": "https://merestonemaps.com/api/backups/arcgis/v1/be_wal_compensation_eolien/MapServer",
       "layer": 0
+    },
+    {
+      "id": "en_phi",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_decid",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_calaminarian",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_grazingmarsh",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_gqsi",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_lowcalc",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_lowacid",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_lowmeadow",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_purplemoor",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_upcalc",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_uphay",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_lowheath",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_mountainheath",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_upheath",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_blanketbog",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_fens",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_raisedbog",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_reedbeds",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_flushes",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_ponds",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_lakes",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_saltmarsh",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_dunes",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_shingle",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_cliff",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_mudflats",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_lagoons",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_limestone",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_fragheath",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
+    },
+    {
+      "id": "phi_grassmoor",
+      "type": "arcgis",
+      "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
+      "layer": 0
     }
   ],
   "publisherDates": [
