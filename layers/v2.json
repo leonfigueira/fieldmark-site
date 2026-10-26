@@ -40,7 +40,121 @@
       "oidField": "FID",
       "nonPageable": true,
       "inBufferSearch": true,
-      "guidanceURL": "https://www.historicenvironment.scot/protect-and-care/protected-historic-places/historic-marine-protected-areas/"
+      "guidanceURL": "https://www.historicenvironment.scot/protect-and-care/protected-historic-places/historic-marine-protected-areas/",
+      "translations": {
+        "en": {
+          "Historic Marine Protected Areas (Scotland)": "Historic Marine Protected Areas (Scotland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs."
+        },
+        "bg": {
+          "Historic Marine Protected Areas (Scotland)": "Морски защитени територии за историческо наследство (Шотландия)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Историческо морско наследство, защитено съгласно Marine (Scotland) Act 2010. Тази ориентировъчна карта показва определените граници; за точните граници и ограничения проверете свързаното обявяване и документацията на обекта. Отделно от морските защитени територии на NatureScot за опазване на природата."
+        },
+        "cs": {
+          "Historic Marine Protected Areas (Scotland)": "Chráněná mořská území historického dědictví (Skotsko)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historické mořské dědictví chráněné podle zákona Marine (Scotland) Act 2010. Tato orientační mapa zobrazuje vyhlášené hranice; přesné hranice a omezení ověřte v odkazovaném vyhlášení a dokumentaci lokality. Odděleno od chráněných mořských území NatureScot pro ochranu přírody."
+        },
+        "da": {
+          "Historic Marine Protected Areas (Scotland)": "Beskyttede havområder for kulturarv (Skotland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historisk maritim kulturarv, beskyttet efter Marine (Scotland) Act 2010. Dette vejledende kort viser de udpegede grænser; se den linkede udpegning og områdets dokumentation for nøjagtige grænser og restriktioner. Adskilt fra NatureScots beskyttede havområder for naturbevarelse."
+        },
+        "de": {
+          "Historic Marine Protected Areas (Scotland)": "Meeresschutzgebiete für historisches Erbe (Schottland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historisches maritimes Erbe, geschützt nach dem Marine (Scotland) Act 2010. Diese Übersichtskarte zeigt die ausgewiesenen Grenzen; genaue Grenzen und Auflagen prüfen Sie bitte in der verlinkten Ausweisung und den Unterlagen zum Gebiet. Getrennt von den Meeresschutzgebieten für den Naturschutz von NatureScot."
+        },
+        "de-CH": {
+          "Historic Marine Protected Areas (Scotland)": "Meeresschutzgebiete für historisches Erbe (Schottland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historisches maritimes Erbe, geschützt nach dem Marine (Scotland) Act 2010. Diese Übersichtskarte zeigt die ausgewiesenen Grenzen; genaue Grenzen und Auflagen prüfen Sie bitte in der verlinkten Ausweisung und den Unterlagen zum Gebiet. Getrennt von den Meeresschutzgebieten für den Naturschutz von NatureScot."
+        },
+        "el": {
+          "Historic Marine Protected Areas (Scotland)": "Θαλάσσιες προστατευόμενες περιοχές ιστορικής κληρονομιάς (Σκωτία)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Ιστορική θαλάσσια κληρονομιά που προστατεύεται βάσει του Marine (Scotland) Act 2010. Αυτός ο ενδεικτικός χάρτης δείχνει τα καθορισμένα όρια· για τα ακριβή όρια και τους περιορισμούς ελέγξτε τη συνδεδεμένη πράξη χαρακτηρισμού και την τεκμηρίωση της τοποθεσίας. Διακριτό από τις θαλάσσιες προστατευόμενες περιοχές διατήρησης της φύσης της NatureScot."
+        },
+        "es": {
+          "Historic Marine Protected Areas (Scotland)": "Áreas marinas protegidas de patrimonio histórico (Escocia)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Patrimonio marítimo histórico protegido por la Marine (Scotland) Act 2010. Este mapa indicativo muestra los límites designados; consulte la designación enlazada y la documentación del sitio para conocer los límites exactos y las restricciones. Es independiente de las áreas marinas protegidas para la conservación de la naturaleza de NatureScot."
+        },
+        "es-419": {
+          "Historic Marine Protected Areas (Scotland)": "Áreas marinas protegidas de patrimonio histórico (Escocia)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Patrimonio marítimo histórico protegido por la Marine (Scotland) Act 2010. Este mapa indicativo muestra los límites designados; consulte la designación enlazada y la documentación del sitio para conocer los límites exactos y las restricciones. Es independiente de las áreas marinas protegidas para la conservación de la naturaleza de NatureScot."
+        },
+        "et": {
+          "Historic Marine Protected Areas (Scotland)": "Ajaloopärandi kaitstavad merealad (Šotimaa)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Ajalooline merepärand, mida kaitseb Marine (Scotland) Act 2010. See ligikaudne kaart näitab määratud piire; täpsete piiride ja piirangute kohta vaadake lingitud määramisotsust ja ala dokumente. Eraldi NatureScoti looduskaitselistest merealadest."
+        },
+        "fi": {
+          "Historic Marine Protected Areas (Scotland)": "Historiallisen perinnön merensuojelualueet (Skotlanti)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historiallinen meriperintö, joka on suojeltu Marine (Scotland) Act 2010 -lain nojalla. Tämä suuntaa-antava kartta näyttää nimetyt rajat; tarkista tarkat rajat ja rajoitukset linkitetystä nimeämispäätöksestä ja alueen asiakirjoista. Erillinen NatureScotin luonnonsuojelun merensuojelualueista."
+        },
+        "fr": {
+          "Historic Marine Protected Areas (Scotland)": "Aires marines de protection du patrimoine historique (Écosse)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Patrimoine maritime historique protégé au titre du Marine (Scotland) Act 2010. Cette carte indicative montre les limites désignées ; consultez la désignation et la documentation du site liées pour les limites exactes et les restrictions. Couche distincte des aires marines de conservation de la nature de NatureScot."
+        },
+        "hr": {
+          "Historic Marine Protected Areas (Scotland)": "Zaštićena morska područja povijesne baštine (Škotska)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Povijesna pomorska baština zaštićena prema zakonu Marine (Scotland) Act 2010. Ova okvirna karta prikazuje proglašene granice; točne granice i ograničenja provjerite u povezanoj odluci o proglašenju i dokumentaciji područja. Odvojeno od NatureScotovih zaštićenih morskih područja za očuvanje prirode."
+        },
+        "hu": {
+          "Historic Marine Protected Areas (Scotland)": "Történeti örökség tengeri védett területei (Skócia)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "A Marine (Scotland) Act 2010 alapján védett történeti tengeri örökség. Ez a tájékoztató jellegű térkép a kijelölt határokat mutatja; a pontos határokat és korlátozásokat a hivatkozott kijelölésben és a terület dokumentációjában ellenőrizze. Elkülönül a NatureScot természetvédelmi tengeri védett területeitől."
+        },
+        "is": {
+          "Historic Marine Protected Areas (Scotland)": "Verndarsvæði í hafi fyrir sögulegar minjar (Skotland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Sögulegar minjar í hafi, verndaðar samkvæmt Marine (Scotland) Act 2010. Þetta leiðbeinandi kort sýnir tilgreind mörk; sjá tengda tilnefningu og gögn um svæðið varðandi nákvæm mörk og takmarkanir. Aðskilið frá náttúruverndarsvæðum NatureScot í hafi."
+        },
+        "it": {
+          "Historic Marine Protected Areas (Scotland)": "Aree marine protette del patrimonio storico (Scozia)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Patrimonio marittimo storico tutelato dal Marine (Scotland) Act 2010. Questa mappa indicativa mostra i confini designati; per i confini esatti e le restrizioni consulti la designazione collegata e la documentazione del sito. È distinta dalle aree marine protette per la conservazione della natura di NatureScot."
+        },
+        "ja": {
+          "Historic Marine Protected Areas (Scotland)": "歴史遺産海洋保護区（スコットランド）",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Marine (Scotland) Act 2010 に基づいて保護されている歴史的な海洋遺産です。この地図は指定区域の境界を示す参考図です。正確な境界と規制は、リンク先の指定情報とサイト資料でご確認ください。NatureScot の自然保護海洋保護区とは別のものです。"
+        },
+        "lt": {
+          "Historic Marine Protected Areas (Scotland)": "Istorinio paveldo jūrų saugomos teritorijos (Škotija)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Istorinis jūrų paveldas, saugomas pagal Marine (Scotland) Act 2010. Šis orientacinis žemėlapis rodo nustatytas ribas; tikslias ribas ir apribojimus rasite susietame paskelbimo dokumente ir teritorijos dokumentacijoje. Atskirta nuo NatureScot gamtos apsaugos jūrų saugomų teritorijų."
+        },
+        "lv": {
+          "Historic Marine Protected Areas (Scotland)": "Vēsturiskā mantojuma jūras aizsargājamās teritorijas (Skotija)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Vēsturiskais jūras mantojums, ko aizsargā Marine (Scotland) Act 2010. Šī orientējošā karte rāda noteiktās robežas; precīzas robežas un ierobežojumus skatiet saistītajā noteikšanas dokumentā un teritorijas dokumentācijā. Nošķirts no NatureScot dabas aizsardzības jūras aizsargājamām teritorijām."
+        },
+        "nb": {
+          "Historic Marine Protected Areas (Scotland)": "Marine verneområder for kulturminner (Skottland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historisk marin kulturarv vernet etter Marine (Scotland) Act 2010. Dette oversiktskartet viser de utpekte grensene; sjekk den lenkede utpekingen og dokumentasjonen for området for nøyaktige grenser og restriksjoner. Atskilt fra NatureScots marine verneområder for naturvern."
+        },
+        "nl": {
+          "Historic Marine Protected Areas (Scotland)": "Beschermde zeegebieden voor historisch erfgoed (Schotland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historisch maritiem erfgoed, beschermd onder de Marine (Scotland) Act 2010. Deze indicatieve kaart toont de aangewezen grenzen; raadpleeg de gekoppelde aanwijzing en de documentatie van het gebied voor de exacte grenzen en beperkingen. Los van de beschermde zeegebieden voor natuurbehoud van NatureScot."
+        },
+        "pl": {
+          "Historic Marine Protected Areas (Scotland)": "Morskie obszary chronione dziedzictwa historycznego (Szkocja)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historyczne dziedzictwo morskie chronione na mocy Marine (Scotland) Act 2010. Ta mapa poglądowa pokazuje wyznaczone granice; dokładne granice i ograniczenia należy sprawdzić w podlinkowanym akcie wyznaczenia i dokumentacji obszaru. Warstwa odrębna od morskich obszarów chronionych NatureScot służących ochronie przyrody."
+        },
+        "pt-PT": {
+          "Historic Marine Protected Areas (Scotland)": "Áreas marinhas protegidas de património histórico (Escócia)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Património marítimo histórico protegido ao abrigo do Marine (Scotland) Act 2010. Este mapa indicativo mostra os limites designados; consulte a designação associada e a documentação do sítio para conhecer os limites exatos e as restrições. É distinto das áreas marinhas protegidas para a conservação da natureza da NatureScot."
+        },
+        "ro": {
+          "Historic Marine Protected Areas (Scotland)": "Arii marine protejate de patrimoniu istoric (Scoția)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Patrimoniu maritim istoric protejat în temeiul Marine (Scotland) Act 2010. Această hartă orientativă arată limitele desemnate; pentru limitele exacte și restricții, consultați desemnarea și documentația sitului din link. Separat de ariile marine protejate pentru conservarea naturii ale NatureScot."
+        },
+        "sk": {
+          "Historic Marine Protected Areas (Scotland)": "Chránené morské územia historického dedičstva (Škótsko)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historické morské dedičstvo chránené podľa zákona Marine (Scotland) Act 2010. Táto orientačná mapa zobrazuje vyhlásené hranice; presné hranice a obmedzenia si overte v odkazovanom vyhlásení a dokumentácii lokality. Oddelené od chránených morských území NatureScot na ochranu prírody."
+        },
+        "sl": {
+          "Historic Marine Protected Areas (Scotland)": "Zavarovana morska območja zgodovinske dediščine (Škotska)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Zgodovinska pomorska dediščina, zavarovana po zakonu Marine (Scotland) Act 2010. Ta okvirni zemljevid prikazuje določene meje; natančne meje in omejitve preverite v povezani razglasitvi in dokumentaciji območja. Ločeno od NatureScotovih zavarovanih morskih območij za ohranjanje narave."
+        },
+        "sv": {
+          "Historic Marine Protected Areas (Scotland)": "Marina skyddsområden för kulturarv (Skottland)",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "Historiskt marint kulturarv som skyddas enligt Marine (Scotland) Act 2010. Den här översiktskartan visar de utpekade gränserna; kontrollera den länkade utpekningen och områdets dokumentation för exakta gränser och restriktioner. Skilt från NatureScots marina skyddsområden för naturvård."
+        },
+        "zh-HK": {
+          "Historic Marine Protected Areas (Scotland)": "歷史遺產海洋保護區（蘇格蘭）",
+          "Historic marine heritage protected under the Marine (Scotland) Act 2010. This indicative map shows designated boundaries; check the linked designation and site documentation for exact boundaries and restrictions. It is separate from NatureScot's nature conservation MPAs.": "根據《Marine (Scotland) Act 2010》受保護的歷史海洋遺產。此地圖僅供參考，顯示指定範圍的界線；確實界線及限制請查閱連結的指定資料及地點文件。此圖層與 NatureScot 的自然保育海洋保護區分開。"
+        }
+      }
     },
     {
       "id": "sc_wetland_inventory",
@@ -79,7 +193,121 @@
       "attribution": "© Scottish Environment Protection Agency. Contains public sector information licensed under the Open Government Licence v3.0.",
       "oidField": "objectid",
       "inBufferSearch": false,
-      "guidanceURL": "https://www.sepa.org.uk/environment/environmental-data/"
+      "guidanceURL": "https://www.sepa.org.uk/environment/environmental-data/",
+      "translations": {
+        "en": {
+          "Scottish Wetland Inventory": "Scottish Wetland Inventory",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations."
+        },
+        "bg": {
+          "Scottish Wetland Inventory": "Опис на влажните зони на Шотландия",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Известни влажни зони, събрани от SEPA от няколко проучвания. Шотландия не е проучена изцяло, затова празна площ не доказва липсата на влажна зона. Методите и датите на проучванията се различават. Този опис на местообитания е отделен от законово обявените защитени територии."
+        },
+        "cs": {
+          "Scottish Wetland Inventory": "Inventář mokřadů Skotska",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Známé mokřady, které SEPA sestavila z několika průzkumů. Skotsko nebylo zmapováno celé, takže prázdná plocha nedokazuje, že tam mokřad není. Metody a data průzkumů se liší. Tento inventář biotopů je oddělený od zákonem vyhlášených chráněných území."
+        },
+        "da": {
+          "Scottish Wetland Inventory": "Fortegnelse over vådområder i Skotland",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Kendte vådområder, sammenstillet af SEPA fra flere kortlægninger. Skotland er ikke kortlagt fuldstændigt, så et tomt område beviser ikke, at der ikke er vådområde. Metoder og tidspunkter for kortlægningen varierer. Denne naturtypefortegnelse er adskilt fra lovbestemte udpegninger."
+        },
+        "de": {
+          "Scottish Wetland Inventory": "Feuchtgebietsinventar Schottland",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Bekannte Feuchtgebiete, von der SEPA aus mehreren Erhebungen zusammengestellt. Schottland ist nicht vollständig erfasst; eine leere Fläche beweist also nicht, dass dort kein Feuchtgebiet liegt. Erhebungsmethoden und -zeitpunkte unterscheiden sich. Dieses Lebensrauminventar ist von gesetzlichen Schutzausweisungen getrennt."
+        },
+        "de-CH": {
+          "Scottish Wetland Inventory": "Feuchtgebietsinventar Schottland",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Bekannte Feuchtgebiete, von der SEPA aus mehreren Erhebungen zusammengestellt. Schottland ist nicht vollständig erfasst; eine leere Fläche beweist also nicht, dass dort kein Feuchtgebiet liegt. Erhebungsmethoden und -zeitpunkte unterscheiden sich. Dieses Lebensrauminventar ist von gesetzlichen Schutzausweisungen getrennt."
+        },
+        "el": {
+          "Scottish Wetland Inventory": "Απογραφή υγροτόπων της Σκωτίας",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Γνωστοί υγρότοποι που συγκέντρωσε η SEPA από διάφορες απογραφές. Η Σκωτία δεν έχει απογραφεί πλήρως, οπότε μια κενή περιοχή δεν αποδεικνύει ότι δεν υπάρχει υγρότοπος. Οι μέθοδοι και οι ημερομηνίες απογραφής διαφέρουν. Αυτή η απογραφή οικοτόπων είναι ξεχωριστή από τους νομικούς χαρακτηρισμούς προστασίας."
+        },
+        "es": {
+          "Scottish Wetland Inventory": "Inventario de humedales de Escocia",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Humedales conocidos, recopilados por la SEPA a partir de varios inventarios. Escocia no se ha inventariado por completo, por lo que una zona vacía no demuestra la ausencia de humedal. Los métodos y las fechas de inventario varían. Este inventario de hábitats es independiente de las designaciones legales."
+        },
+        "es-419": {
+          "Scottish Wetland Inventory": "Inventario de humedales de Escocia",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Humedales conocidos, recopilados por la SEPA a partir de varios inventarios. Escocia no se ha inventariado por completo, por lo que una zona vacía no demuestra la ausencia de humedal. Los métodos y las fechas de inventario varían. Este inventario de hábitats es independiente de las designaciones legales."
+        },
+        "et": {
+          "Scottish Wetland Inventory": "Šotimaa märgalade inventuur",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "SEPA poolt mitmest inventuurist koondatud teadaolevad märgalad. Šotimaad ei ole täielikult inventeeritud, seega tühi ala ei tõesta märgala puudumist. Inventuuride meetodid ja ajad erinevad. See elupaikade inventuur on seadusjärgsetest kaitsealadest eraldi."
+        },
+        "fi": {
+          "Scottish Wetland Inventory": "Skotlannin kosteikkoinventaario",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "SEPA:n useista kartoituksista kokoamat tunnetut kosteikot. Skotlantia ei ole kartoitettu kokonaan, joten tyhjä alue ei todista, ettei kosteikkoa ole. Kartoitusmenetelmät ja -ajankohdat vaihtelevat. Tämä elinympäristöinventaario on erillinen lakisääteisistä suojelualueista."
+        },
+        "fr": {
+          "Scottish Wetland Inventory": "Inventaire des zones humides d’Écosse",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Zones humides connues compilées par la SEPA à partir de plusieurs inventaires. L’Écosse n’a pas été entièrement recensée ; une zone vide ne prouve donc pas l’absence de milieu humide. Les méthodes et dates de relevé varient. Cet inventaire d’habitats est distinct des désignations réglementaires."
+        },
+        "hr": {
+          "Scottish Wetland Inventory": "Popis močvarnih područja Škotske",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Poznata močvarna područja koja je SEPA prikupila iz više istraživanja. Škotska nije u cijelosti istražena, pa prazno područje ne dokazuje da ondje nema močvarnog područja. Metode i datumi istraživanja razlikuju se. Ovaj popis staništa odvojen je od zakonom propisanih zaštićenih područja."
+        },
+        "hu": {
+          "Scottish Wetland Inventory": "Skócia vizes élőhelyeinek jegyzéke",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "A SEPA által több felmérésből összeállított ismert vizes élőhelyek. Skócia nincs teljesen felmérve, így egy üres terület nem bizonyítja, hogy ott nincs vizes élőhely. A felmérések módszerei és időpontjai eltérőek. Ez az élőhely-jegyzék független a jogszabályban kijelölt védett területektől."
+        },
+        "is": {
+          "Scottish Wetland Inventory": "Skrá um votlendi í Skotlandi",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Þekkt votlendi sem SEPA hefur tekið saman úr nokkrum könnunum. Skotland hefur ekki verið kannað að fullu, svo autt svæði sannar ekki að þar sé ekki votlendi. Könnunaraðferðir og dagsetningar eru mismunandi. Þessi skrá um búsvæði er aðskilin frá lögbundnum friðlýsingum."
+        },
+        "it": {
+          "Scottish Wetland Inventory": "Inventario delle zone umide della Scozia",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Zone umide note, raccolte dalla SEPA da diversi rilevamenti. La Scozia non è stata rilevata per intero, quindi un'area vuota non prova l'assenza di zone umide. Metodi e date dei rilevamenti variano. Questo inventario degli habitat è distinto dalle designazioni di legge."
+        },
+        "ja": {
+          "Scottish Wetland Inventory": "スコットランド湿地目録",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "SEPA が複数の調査から取りまとめた既知の湿地です。スコットランド全域は調査されていないため、空白の区域は湿地がないことを示すものではありません。調査の方法と時期は一様ではありません。この生息地目録は法定の指定区域とは別のものです。"
+        },
+        "lt": {
+          "Scottish Wetland Inventory": "Škotijos šlapžemių sąvadas",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Žinomos šlapžemės, kurias SEPA surinko iš kelių tyrimų. Škotija ištirta ne visa, todėl tuščia vieta neįrodo, kad šlapžemės nėra. Tyrimų metodai ir datos skiriasi. Šis buveinių sąvadas yra atskiras nuo teisės aktais nustatytų saugomų teritorijų."
+        },
+        "lv": {
+          "Scottish Wetland Inventory": "Skotijas mitrāju inventārs",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Zināmie mitrāji, ko SEPA apkopojusi no vairākām apsekošanām. Skotija nav apsekota pilnībā, tāpēc tukša teritorija nepierāda, ka mitrāja tur nav. Apsekošanas metodes un datumi atšķiras. Šis biotopu inventārs ir nošķirts no likumā noteiktajām aizsargājamām teritorijām."
+        },
+        "nb": {
+          "Scottish Wetland Inventory": "Våtmarksoversikt for Skottland",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Kjente våtmarker satt sammen av SEPA fra flere kartlegginger. Skottland er ikke kartlagt fullstendig, så et tomt område beviser ikke at det ikke finnes våtmark. Metoder og tidspunkt for kartleggingen varierer. Denne naturtypeoversikten er atskilt fra lovfestede vernevedtak."
+        },
+        "nl": {
+          "Scottish Wetland Inventory": "Wetlandinventaris van Schotland",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Bekende wetlands, door SEPA samengesteld uit verschillende inventarisaties. Schotland is niet volledig geïnventariseerd, dus een leeg gebied bewijst niet dat er geen wetland is. Methoden en data van de inventarisaties verschillen. Deze habitatinventaris staat los van wettelijke aanwijzingen."
+        },
+        "pl": {
+          "Scottish Wetland Inventory": "Inwentarz mokradeł Szkocji",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Znane mokradła zebrane przez SEPA z kilku inwentaryzacji. Szkocja nie została w pełni zinwentaryzowana, więc puste miejsce nie dowodzi braku mokradeł. Metody i daty inwentaryzacji się różnią. Ten inwentarz siedlisk jest odrębny od form ochrony ustanowionych prawem."
+        },
+        "pt-PT": {
+          "Scottish Wetland Inventory": "Inventário de zonas húmidas da Escócia",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Zonas húmidas conhecidas, compiladas pela SEPA a partir de vários levantamentos. A Escócia não foi totalmente levantada, pelo que uma área vazia não prova a ausência de zona húmida. Os métodos e as datas dos levantamentos variam. Este inventário de habitats é distinto das designações legais."
+        },
+        "ro": {
+          "Scottish Wetland Inventory": "Inventarul zonelor umede din Scoția",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Zone umede cunoscute, compilate de SEPA din mai multe inventarieri. Scoția nu a fost inventariată complet, deci o zonă goală nu dovedește absența zonelor umede. Metodele și datele inventarierilor variază. Acest inventar de habitate este separat de desemnările legale."
+        },
+        "sk": {
+          "Scottish Wetland Inventory": "Inventár mokradí Škótska",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Známe mokrade, ktoré SEPA zostavila z viacerých prieskumov. Škótsko nebolo zmapované celé, takže prázdna plocha nedokazuje, že tam mokraď nie je. Metódy a dátumy prieskumov sa líšia. Tento inventár biotopov je oddelený od zákonom vyhlásených chránených území."
+        },
+        "sl": {
+          "Scottish Wetland Inventory": "Popis mokrišč Škotske",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Znana mokrišča, ki jih je SEPA zbrala iz več popisov. Škotska ni bila popisana v celoti, zato prazno območje ne dokazuje, da mokrišča ni. Metode in datumi popisov se razlikujejo. Ta popis habitatov je ločen od zakonsko določenih zavarovanih območij."
+        },
+        "sv": {
+          "Scottish Wetland Inventory": "Våtmarksinventering i Skottland",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "Kända våtmarker som SEPA har sammanställt från flera inventeringar. Skottland är inte fullständigt inventerat, så ett tomt område bevisar inte att det saknas våtmark. Inventeringsmetoder och datum varierar. Denna habitatinventering är skild från lagstadgade skyddsformer."
+        },
+        "zh-HK": {
+          "Scottish Wetland Inventory": "蘇格蘭濕地名錄",
+          "Known wetlands compiled from several surveys by SEPA. Scotland has not been surveyed completely, so a blank area does not prove the absence of wetland. Survey methods and dates vary. This habitat inventory is separate from statutory designations.": "由 SEPA 根據多項調查彙編的已知濕地。蘇格蘭尚未全面調查，因此空白範圍並不證明該處沒有濕地。各項調查的方法及日期不一。此生境名錄與法定指定區域分開。"
+        }
+      }
     },
     {
       "id": "ie_zoning",
