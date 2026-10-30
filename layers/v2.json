@@ -987,6 +987,34 @@
       "type": "arcgis",
       "base": "https://services.arcgis.com/JJzESW51TqeY9uat/arcgis/rest/services/Priority_Habitats_Inventory_England/FeatureServer",
       "layer": 0
+    },
+    {
+      "id": "lu_haute_sure_zones",
+      "type": "ogcapi",
+      "base": "https://features.geoportail.lu",
+      "collection": "1464",
+      "sameData": true
+    },
+    {
+      "id": "lu_psp_coupures_vertes",
+      "type": "ogcapi",
+      "base": "https://features.geoportail.lu",
+      "collection": "396",
+      "sameData": true
+    },
+    {
+      "id": "de_mv_kohlenstoffboeden",
+      "type": "wfs",
+      "endpoint": "https://umweltkarten.lung-mv.de/dienste/gb_boden",
+      "typeName": "kbk25_kb",
+      "sameData": true
+    },
+    {
+      "id": "de_mv_bodenfunktionsbereiche",
+      "type": "wfs",
+      "endpoint": "https://umweltkarten.lung-mv.de/dienste/gb_boden",
+      "typeName": "bfb",
+      "sameData": true
     }
   ],
   "publisherDates": [
