@@ -1,6 +1,14 @@
 {
   "version": 2,
-  "disabled": [],
+  "disabled": [
+    "hk_country_parks",
+    "hk_geopark",
+    "hk_marine_parks",
+    "hk_special_areas",
+    "hu_erdoreszletek",
+    "jp_ekijoka",
+    "jp_tameike"
+  ],
   "layers": [
     {
       "id": "sc_hmpa",
@@ -657,7 +665,46 @@
       "id": "sc_carbonpeat",
       "reason": "NatureScot publishes the Carbon and Peatland 2016 map under the UK Non-Commercial Government Licence, which bars commercial use. Withheld until NatureScot confirms an open re-use grant.",
       "publisherURL": "https://www.nationalarchives.gov.uk/doc/non-commercial-government-licence/version/2/"
+    },
+    {
+      "id": "hk_country_parks",
+      "reason": "AFCD (Hong Kong) said on 30 Oct 2026 that it does not release the boundaries of country parks, special areas, marine parks or the Geopark as data. Removed; country parks and marine parks stay as points. For the boundaries, see map.gov.hk.",
+      "publisherURL": "https://www.afcd.gov.hk/"
+    },
+    {
+      "id": "hk_special_areas",
+      "reason": "AFCD (Hong Kong) said on 30 Oct 2026 that it does not release the boundaries of country parks, special areas, marine parks or the Geopark as data. Removed; country parks and marine parks stay as points. For the boundaries, see map.gov.hk.",
+      "publisherURL": "https://www.afcd.gov.hk/"
+    },
+    {
+      "id": "hk_marine_parks",
+      "reason": "AFCD (Hong Kong) said on 30 Oct 2026 that it does not release the boundaries of country parks, special areas, marine parks or the Geopark as data. Removed; country parks and marine parks stay as points. For the boundaries, see map.gov.hk.",
+      "publisherURL": "https://www.afcd.gov.hk/"
+    },
+    {
+      "id": "hk_geopark",
+      "reason": "AFCD (Hong Kong) said on 30 Oct 2026 that it does not release the boundaries of country parks, special areas, marine parks or the Geopark as data. Removed; country parks and marine parks stay as points. For the boundaries, see map.gov.hk.",
+      "publisherURL": "https://www.afcd.gov.hk/"
+    },
+    {
+      "id": "hu_erdoreszletek",
+      "reason": "The forestry authority (ÉKFM, EHF/4409-1/2026, 30 Oct 2026) allows the Erdőtérkép forest stand map to be re-used for non-commercial purposes only. Removed.",
+      "publisherURL": "https://erdoterkep.nebih.gov.hu/"
+    },
+    {
+      "id": "jp_tameike",
+      "reason": "The Hazard Map Portal (GSI, 2 Nov 2026) does not publish this map as open data, so it may not be re-used. Removed; check it on the Hazard Map Portal.",
+      "publisherURL": "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
+    },
+    {
+      "id": "jp_ekijoka",
+      "reason": "The Hazard Map Portal (GSI, 2 Nov 2026) does not publish this map as open data, so it may not be re-used. Removed; check it on the Hazard Map Portal.",
+      "publisherURL": "https://disaportal.gsi.go.jp/hazardmap/copyright/opendata.html"
     }
+  ],
+  "released": [
+    "jp_shika",
+    "jp_shinrin_mesh"
   ],
   "patches": [
     {
@@ -738,6 +785,79 @@
         "fi": "Géorisquesin julkaisemat siirtoputkistojen alueet. Tämä karttataso ei erittele SUP1-, SUP2- ja SUP3-vyöhykkeitä eikä esitä putkien tarkkoja reittejä. Tarkista sovellettavat rasitteet ja vaatimukset toimivaltaiselta viranomaiselta ja verkonhaltijalta. Kartta ei korvaa lähialueen töitä koskevia DT-DICT-ilmoituksia.",
         "de-CH": "Von Géorisques veröffentlichte Zonen von Transportleitungen. Diese Ebene unterscheidet die Bereiche SUP1, SUP2 und SUP3 nicht einzeln und zeigt keine genauen Leitungsverläufe. Klären Sie geltende Dienstbarkeiten und Anforderungen mit der zuständigen Behörde und dem Netzbetreiber. Die Karte ersetzt keine DT-DICT-Meldungen für Arbeiten in der Nähe."
       }
+    },
+    {
+      "id": "jp_shika",
+      "attribution": "出典：「基礎調査2004 ニホンジカ全国分布メッシュ」（環境省生物多様性センター）。環境ジオポータルから出力したデータ(環境省生物多様性センター)を使用し、Merestone が作成・加工したもの, CC BY 4.0",
+      "explainer": {
+        "bg": "Квадрати 5 км, в които 6-ото Национално проучване на природната среда е установило петнист елен (сика). Неоцветеният квадрат не означава, че няма петнисти елени.",
+        "cs": "Čtverce sítě 5 km, v nichž 6. kolo Národního průzkumu přírodního prostředí zjistilo jelena siku. Nezabarvený čtverec neznamená, že se tam jelen sika nevyskytuje.",
+        "da": "5 km-kvadrater, hvor 6. runde af den nationale naturundersøgelse fandt sikahjort. Et kvadrat uden farve betyder ikke, at der ikke er sikahjorte.",
+        "de": "5-km-Raster, in denen die 6. Nationale Erhebung der natürlichen Umwelt Sikahirsche nachgewiesen hat. Ein Raster ohne Farbe bedeutet nicht, dass dort keine Sikahirsche vorkommen.",
+        "de-CH": "5-km-Raster, in denen die 6. Nationale Erhebung der natürlichen Umwelt Sikahirsche nachgewiesen hat. Ein Raster ohne Farbe bedeutet nicht, dass dort keine Sikahirsche vorkommen.",
+        "el": "Κάνναβος 5 km όπου η 6η Εθνική Έρευνα για το Φυσικό Περιβάλλον εντόπισε ελάφια σίκα. Ένα τετράγωνο χωρίς χρώμα δεν σημαίνει ότι δεν υπάρχουν ελάφια σίκα.",
+        "en": "5 km meshes where the 6th National Survey on the Natural Environment found sika deer. A mesh without colour does not mean there are no sika deer.",
+        "es": "Cuadrículas de 5 km en las que el 6.º Estudio Nacional del Medio Natural encontró ciervo sika. Una cuadrícula sin color no significa que no haya ciervos sika.",
+        "es-419": "Cuadrículas de 5 km en las que el 6.º Estudio Nacional del Medio Natural encontró ciervo sika. Una cuadrícula sin color no significa que no haya ciervos sika.",
+        "et": "5 km ruudud, kus 6. riiklik looduskeskkonna uuring leidis sika-hirvi. Värvimata ruut ei tähenda, et seal sika-hirvi ei ole.",
+        "fi": "5 km:n ruudut, joilla luonnonympäristön 6. valtakunnallinen kartoitus havaitsi japaninpeuran. Värittämätön ruutu ei tarkoita, ettei siellä ole japaninpeuroja.",
+        "fr": "Mailles de 5 km où le 6e Inventaire national du milieu naturel a relevé le cerf sika. Une maille non colorée ne signifie pas l'absence de cerf sika.",
+        "hr": "Kvadrati mreže od 5 km u kojima je 6. Nacionalno istraživanje prirodnog okoliša utvrdilo jelena sika. Kvadrat bez boje ne znači da ondje nema jelena sika.",
+        "hu": "Azok az 5 km-es hálócellák, ahol a természeti környezet 6. országos felmérése szikaszarvast talált. A színezés nélküli cella nem jelenti, hogy ott nincs szikaszarvas.",
+        "is": "5 km reitir þar sem 6. landsrannsóknin á náttúrufari fann sikahjört. Litlaus reitur þýðir ekki að þar séu engir sikahirtir.",
+        "it": "Maglie di 5 km in cui la 6ª Indagine nazionale sull'ambiente naturale ha rilevato il cervo sika. Una maglia non colorata non significa che non vi siano cervi sika.",
+        "ja": "第6回自然環境保全基礎調査でニホンジカの生息が確認された5キロメッシュです。メッシュの外にシカがいないという意味ではありません。",
+        "lt": "5 km tinklelio langeliai, kuriuose 6-asis Nacionalinis gamtinės aplinkos tyrimas aptiko dėmėtųjų elnių. Nenuspalvintas langelis nereiškia, kad dėmėtųjų elnių nėra.",
+        "lv": "5 km režģa šūnas, kurās 6. Valsts dabas vides apsekojumā konstatēti sika brieži. Neiekrāsota šūna nenozīmē, ka tur nav sika briežu.",
+        "nb": "5 km-ruter der den 6. nasjonale naturmiljøundersøkelsen fant sikahjort. En rute uten farge betyr ikke at det ikke finnes sikahjort.",
+        "nl": "Hokken van 5 km waar de 6e Nationale Inventarisatie van de Natuurlijke Omgeving sikaherten heeft aangetroffen. Een hok zonder kleur betekent niet dat er geen sikaherten zijn.",
+        "pl": "Oczka siatki 5 km, w których 6. Krajowe Badanie Środowiska Przyrodniczego stwierdziło jelenia sika. Oczko bez koloru nie oznacza braku jelenia sika.",
+        "pt-BR": "Quadrículas de 5 km em que o 6º Levantamento Nacional do Ambiente Natural encontrou o cervo-sika. Uma quadrícula sem cor não significa que não existam cervos-sika.",
+        "pt-PT": "Quadrículas de 5 km em que o 6.º Levantamento Nacional do Ambiente Natural encontrou o veado-sika. Uma quadrícula sem cor não significa que não existam veados-sika.",
+        "ro": "Ochiuri de 5 km în care al 6-lea Inventar național al mediului natural a găsit cerbul sika. Un ochi necolorat nu înseamnă că nu există cerbi sika.",
+        "sk": "Štvorce siete 5 km, v ktorých 6. Celoštátny prieskum prírodného prostredia zistil výskyt jeleňa sika. Štvorec bez farby neznamená, že sa tam jeleň sika nevyskytuje.",
+        "sl": "Celice mreže 5 km, v katerih je 6. nacionalni popis naravnega okolja zabeležil sika jelena. Celica brez barve ne pomeni, da sika jelenov ni.",
+        "sv": "Rutor om 5 km där den 6:e nationella inventeringen av naturmiljön påträffade sikahjort. En ruta utan färg betyder inte att det saknas sikahjort.",
+        "zh-HK": "第6次自然環境保全基礎調查發現梅花鹿的5公里網格。沒有顏色的網格並不代表沒有梅花鹿。"
+      },
+      "guidanceURL": "https://geoportal.env.go.jp/datasets/fbef6d17dafc418687730423d933950b_0/about",
+      "inBufferSearch": false
+    },
+    {
+      "id": "jp_shinrin_mesh",
+      "attribution": "出典：林野庁「全国森林資源メッシュ」(G空間情報センター), Public Data License 1.0",
+      "explainer": {
+        "bg": "Мрежата на горските ресурси на Агенцията по горите с квадрати 20 м (тип гора, дървесни видове, възраст, височина на склопа). Това е само справочна информация. Проверете подробностите в префектурата. Показва се като картно изображение.",
+        "cs": "Síť lesních zdrojů Lesnické agentury s rozlišením 20 m (typ lesa, dřevina, věk, výška porostu). Jde pouze o orientační informace. Podrobnosti ověřte na prefektuře. Zobrazuje se jako mapový obraz.",
+        "da": "Skovagenturets skovressourcenet på 20 m (skovtype, træart, alder, kronehøjde). Der er kun tale om vejledende oplysninger. Kontrollér detaljerne hos præfekturet. Vises som kortbillede.",
+        "de": "Das 20-m-Waldressourcenraster der Forstbehörde (Waldtyp, Baumart, Alter, Kronenhöhe). Es handelt sich nur um Referenzinformationen. Einzelheiten sind bei der Präfektur zu prüfen. Wird als Kartenbild angezeigt.",
+        "de-CH": "Das 20-m-Waldressourcenraster der Forstbehörde (Waldtyp, Baumart, Alter, Kronenhöhe). Es handelt sich nur um Referenzinformationen. Einzelheiten sind bei der Präfektur zu prüfen. Wird als Kartenbild angezeigt.",
+        "el": "Ο κάνναβος δασικών πόρων 20 m της Υπηρεσίας Δασών (τύπος δάσους, είδη, ηλικία, ύψος κόμης). Πρόκειται μόνο για πληροφορίες αναφοράς. Ελέγξτε τις λεπτομέρειες στη νομαρχία. Εμφανίζεται ως εικόνα χάρτη.",
+        "en": "The Forestry Agency's 20 m forest resource mesh (forest type, species, age, canopy height). This is reference information only. Check the details with the prefecture. Shown as a map image.",
+        "es": "La cuadrícula de recursos forestales de 20 m de la Agencia Forestal (tipo de bosque, especie, edad, altura del dosel). Es solo información de referencia. Consulte los detalles con la prefectura. Se muestra como imagen del mapa.",
+        "es-419": "La cuadrícula de recursos forestales de 20 m de la Agencia Forestal (tipo de bosque, especie, edad, altura del dosel). Es solo información de referencia. Consulte los detalles con la prefectura. Se muestra como imagen del mapa.",
+        "et": "Metsaameti 20 m metsavarude ruudustik (metsatüüp, puuliik, vanus, võrastiku kõrgus). See on üksnes taustteave. Täpsustage üksikasjad prefektuuris. Kuvatakse kaardipildina.",
+        "fi": "Metsäviraston 20 metrin metsävararuudukko (metsätyyppi, puulaji, ikä, latvuston korkeus). Tiedot ovat vain suuntaa antavia. Tarkista yksityiskohdat prefektuurista. Näytetään karttakuvana.",
+        "fr": "La maille de ressources forestières de 20 m de l'Agence des forêts (type de forêt, essence, âge, hauteur du couvert). Il s'agit uniquement d'informations de référence. Vérifiez les détails auprès de la préfecture. Affiché sous forme d'image cartographique.",
+        "hr": "Mreža šumskih resursa Agencije za šumarstvo od 20 m (tip šume, vrsta drveća, starost, visina krošnje). Riječ je samo o referentnim podacima. Pojedinosti provjerite u prefekturi. Prikazuje se kao slika karte.",
+        "hu": "Az Erdészeti Ügynökség 20 m-es erdőállomány-hálója (erdőtípus, fafaj, kor, lombkoronamagasság). Ez csak tájékoztató adat. A részleteket a prefektúránál ellenőrizze. Térképképként jelenik meg.",
+        "is": "20 m skógarauðlindareitir skógræktarstofnunarinnar (skógargerð, tegund, aldur, krónuhæð). Þetta eru aðeins viðmiðunarupplýsingar. Kannið nánari atriði hjá viðkomandi héraði. Birt sem kortamynd.",
+        "it": "La maglia delle risorse forestali di 20 m dell'Agenzia forestale (tipo di bosco, specie, età, altezza della chioma). Si tratta solo di informazioni di riferimento. Verificare i dettagli presso la prefettura. Visualizzato come immagine cartografica.",
+        "ja": "林野庁の20メートルメッシュの森林資源情報（林種、樹種、林齢、樹冠高など）です。参考情報です。詳細は都道府県等にご確認ください。画像として表示されます。",
+        "lt": "Miškų agentūros 20 m miškų išteklių tinklelis (miško tipas, medžių rūšys, amžius, lajos aukštis). Tai tik informacinio pobūdžio duomenys. Išsamią informaciją pasitikslinkite prefektūroje. Rodoma kaip žemėlapio vaizdas.",
+        "lv": "Mežu aģentūras 20 m meža resursu režģis (meža tips, sugas, vecums, vainaga augstums). Tā ir tikai uzziņas informācija. Sīkāku informāciju pārbaudiet prefektūrā. Tiek rādīts kā kartes attēls.",
+        "nb": "Skogbruksetatens skogressursrutenett på 20 m (skogtype, treslag, alder, kronehøyde). Dette er kun veiledende informasjon. Kontroller detaljene hos prefekturet. Vises som kartbilde.",
+        "nl": "Het bosbestandsraster van 20 m van het Bosbouwagentschap (bostype, soort, leeftijd, kroonhoogte). Dit is alleen referentie-informatie. Controleer de details bij de prefectuur. Weergegeven als kaartafbeelding.",
+        "pl": "Siatka zasobów leśnych 20 m Agencji Leśnej (typ lasu, gatunek, wiek, wysokość koron). To wyłącznie informacje poglądowe. Szczegóły należy sprawdzić w prefekturze. Wyświetlane jako obraz mapy.",
+        "pt-BR": "A quadrícula de recursos florestais de 20 m da Agência Florestal (tipo de floresta, espécie, idade, altura do dossel). São apenas informações de referência. Confirme os detalhes com a província. Exibida como imagem de mapa.",
+        "pt-PT": "A quadrícula de recursos florestais de 20 m da Agência Florestal (tipo de floresta, espécie, idade, altura do copado). São apenas informações de referência. Confirme os pormenores junto da prefeitura. Apresentada como imagem de mapa.",
+        "ro": "Grila de 20 m a resurselor forestiere a Agenției pentru Păduri (tipul pădurii, specia, vârsta, înălțimea coronamentului). Sunt doar informații de referință. Verificați detaliile la prefectură. Se afișează ca imagine de hartă.",
+        "sk": "Sieť lesných zdrojov Lesníckej agentúry s rozlíšením 20 m (typ lesa, drevina, vek, výška korunovej vrstvy). Ide len o orientačné informácie. Podrobnosti si overte na prefektúre. Zobrazuje sa ako mapový obrázok.",
+        "sl": "Mreža gozdnih virov Gozdarske agencije z ločljivostjo 20 m (tip gozda, drevesne vrste, starost, višina krošenj). Gre le za informativne podatke. Podrobnosti preverite pri prefekturi. Prikazano kot slika karte.",
+        "sv": "Skogsmyndighetens skogsresursraster om 20 m (skogstyp, trädslag, ålder, krontakshöjd). Detta är endast referensinformation. Kontrollera detaljerna hos prefekturen. Visas som kartbild.",
+        "zh-HK": "林野廳的20米森林資源網格（森林類型、樹種、林齡、樹冠高度）。此為參考資料，詳情請向都道府縣等查詢。以地圖影像顯示。"
+      },
+      "guidanceURL": "https://www.geospatial.jp/ckan/dataset/mesh_19"
     }
   ],
   "offlineEstimates": {
@@ -798,6 +918,18 @@
       "preset": "de_wasser",
       "add": [
         "de_bw_hqextrem"
+      ]
+    },
+    {
+      "preset": "jp_yacho",
+      "add": [
+        "jp_shika"
+      ]
+    },
+    {
+      "preset": "jp_assess",
+      "add": [
+        "jp_shinrin_mesh"
       ]
     }
   ],
@@ -1030,5 +1162,122 @@
       }
     }
   ],
+  "strings": {
+    "cs": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Celostátní registr chráněných území, národní ekologická síť, geologická mapa 1:100 000, mapa geologických rizik a mapa vnitřních vod jsou uvedeny v seznamu, ale zatím je nelze otevřít: jejich licence zatím jednoznačně nepovolují, aby je zobrazovala placená aplikace. Obrátili jsme se na ministerstvo, SZTFH a Lechner a zpřístupní se zde, jakmile to bude potvrzeno.",
+      "Földtan, földtani veszélyek és erdők": "Geologie a geologická rizika"
+    },
+    "da": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Det nationale register over beskyttede naturområder, det nationale økologiske netværk, det geologiske kort 1:100.000, kortet over geologiske risici og kortet over stående overfladevand er på listen, men kan endnu ikke åbnes: deres licenser tillader endnu ikke klart, at en betalingsapp viser dem. Vi har spurgt ministeriet, SZTFH og Lechner, og de bliver låst op her, så snart det er bekræftet.",
+      "Földtan, földtani veszélyek és erdők": "Geologi og geologiske risici"
+    },
+    "et": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Kaitstavate loodusalade riiklik register, riiklik ökoloogiline võrgustik, geoloogiline kaart 1:100 000, geoloogiliste ohtude kaart ja liigvee kaart on loetelus, kuid neid ei saa veel avada: nende litsentsid ei luba veel selgelt tasulisel rakendusel neid näidata. Oleme pöördunud ministeeriumi, SZTFH ja Lechneri poole ning need avatakse siin kohe, kui see on kinnitatud.",
+      "Földtan, földtani veszélyek és erdők": "Geoloogia ja geoloogilised ohud"
+    },
+    "fi": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Kansallinen luonnonsuojelualuerekisteri, kansallinen ekologinen verkosto, geologinen kartta 1:100 000, geologisten riskien kartta ja pintavesitulvakartta ovat luettelossa, mutta niitä ei voi vielä avata: niiden lisenssit eivät vielä selvästi salli maksullisen sovelluksen näyttää niitä. Olemme kysyneet asiaa ministeriöltä, SZTFH:lta ja Lechneriltä, ja ne avautuvat tässä heti, kun asia vahvistetaan.",
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Havaitut maanvyörymät, painumat ja sortumat, Unkarin geologinen kartta 1:100 000 ja geologisten riskien kartta (kaksi viimeistä odottavat lupaa).",
+      "Földtan, földtani veszélyek és erdők": "Geologia ja geologiset riskit"
+    },
+    "hr": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Nacionalni upisnik zaštićenih područja prirode, nacionalna ekološka mreža, geološka karta 1:100.000, karta geoloških opasnosti i karta unutarnjih voda navedeni su na popisu, ali se još ne mogu otvoriti: njihove licencije još jasno ne dopuštaju da ih prikazuje aplikacija koja se plaća. Obratili smo se ministarstvu, SZTFH-u i Lechneru, a ovdje će se otključati čim to bude potvrđeno.",
+      "Földtan, földtani veszélyek és erdők": "Geologija i geološke opasnosti"
+    },
+    "is": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Landsskrá yfir friðlýst náttúrusvæði, þjóðlega vistfræðinetið, jarðfræðikortið 1:100.000, jarðvárkortið og kortið yfir umframvatn eru á listanum en ekki er enn hægt að opna þau: leyfi þeirra heimila greiddu appi ekki enn skýrt að sýna þau. Við höfum spurt ráðuneytið, SZTFH og Lechner, og þau verða opnuð hér um leið og það hefur verið staðfest.",
+      "Földtan, földtani veszélyek és erdők": "Jarðfræði og jarðvá"
+    },
+    "ja": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "国の自然保護区域登録簿、国家生態系ネットワーク、1:100,000地質図、地質災害図、内水氾濫図はリストに掲載されていますが、まだ開くことはできません。ライセンスが、有料アプリでの表示を明確に認めていないためです。同省、SZTFH、Lechnerに問い合わせており、確認され次第、ここでロックが解除されます。",
+      "Földtan, földtani veszélyek és erdők": "地質・地質災害"
+    },
+    "lt": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Nacionalinis saugomų gamtinių teritorijų registras, nacionalinis ekologinis tinklas, 1:100 000 geologinis žemėlapis, geologinių pavojų žemėlapis ir vidaus vandenų pertekliaus žemėlapis yra sąraše, tačiau jų dar negalima atidaryti: jų licencijos dar aiškiai neleidžia jų rodyti mokamoje programėlėje. Kreipėmės į ministeriją, SZTFH ir Lechner, ir jie bus atrakinti čia, kai tik tai bus patvirtinta.",
+      "Földtan, földtani veszélyek és erdők": "Geologija ir geologiniai pavojai"
+    },
+    "lv": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Valsts aizsargājamo dabas teritoriju reģistrs, nacionālais ekoloģiskais tīkls, ģeoloģiskā karte mērogā 1:100 000, ģeoloģisko risku karte un lieko iekšzemes ūdeņu karte ir sarakstā, taču tās vēl nevar atvērt: to licences vēl skaidri neatļauj tās rādīt maksas lietotnē. Esam vērsušies ministrijā, SZTFH un Lechner, un tās šeit tiks atbloķētas, tiklīdz tas tiks apstiprināts.",
+      "Földtan, földtani veszélyek és erdők": "Ģeoloģija un ģeoloģiskie riski"
+    },
+    "nb": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Det nasjonale registeret over verneområder, det nasjonale økologiske nettverket, det geologiske kartet i 1:100 000, kartet over geologiske farer og overvannskartet er oppført, men kan ikke åpnes ennå: lisensene deres tillater ennå ikke tydelig at en betalt app viser dem. Vi har spurt departementet, SZTFH og Lechner, og de låses opp her så snart det er bekreftet.",
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Observerte skred, setninger og innsynkninger, Ungarns geologiske kart i 1:100 000 og det geologiske farekartet (de to siste venter på tillatelse).",
+      "Földtan, földtani veszélyek és erdők": "Geologi og geofarer"
+    },
+    "pl": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Krajowy rejestr obszarów chronionych, krajowa sieć ekologiczna, mapa geologiczna 1:100 000, mapa zagrożeń geologicznych i mapa podtopień są na liście, ale nie można ich jeszcze otworzyć: ich licencje nie pozwalają jeszcze jednoznacznie na wyświetlanie ich w płatnej aplikacji. Zwróciliśmy się do ministerstwa, SZTFH i Lechner, a warstwy zostaną tu udostępnione, gdy tylko zostanie to potwierdzone.",
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Zaobserwowane osuwiska, osiadania i zapadliska, mapa geologiczna Węgier 1:100 000 i mapa zagrożeń geologicznych (dwie ostatnie czekają na zgodę).",
+      "Földtan, földtani veszélyek és erdők": "Geologia i zagrożenia geologiczne"
+    },
+    "pt-BR": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "O registro nacional de áreas naturais protegidas, a rede ecológica nacional, o mapa geológico 1:100.000, o mapa de riscos geológicos e o mapa de alagamentos estão listados, mas ainda não podem ser abertos: as respectivas licenças ainda não permitem claramente que um app pago os mostre. Consultamos o ministério, a SZTFH e a Lechner, e eles serão desbloqueados aqui assim que isso for confirmado.",
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Deslizamentos, abatimentos e colapsos observados, o mapa geológico da Hungria 1:100.000 e o mapa de perigos geológicos (os dois últimos aguardam autorização).",
+      "Földtan, földtani veszélyek és erdők": "Geologia e riscos geológicos"
+    },
+    "pt-PT": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "O registo nacional de áreas naturais protegidas, a rede ecológica nacional, a carta geológica 1:100 000, a carta de riscos geológicos e a carta de alagamentos constam da lista, mas ainda não podem ser abertos: as respetivas licenças ainda não permitem claramente que uma aplicação paga os mostre. Consultámos o ministério, SZTFH e Lechner, e serão desbloqueados aqui logo que tal seja confirmado.",
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Deslizamentos, abatimentos e colapsos observados, a carta geológica da Hungria 1:100 000 e a carta de perigos geológicos (as duas últimas aguardam autorização).",
+      "Földtan, földtani veszélyek és erdők": "Geologia e riscos geológicos"
+    },
+    "sk": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Celoštátny register chránených území, národná ekologická sieť, geologická mapa 1:100 000, mapa geologických rizík a mapa vnútorných vôd sú uvedené v zozname, ale zatiaľ ich nemožno otvoriť: ich licencie zatiaľ jednoznačne nepovoľujú, aby ich zobrazovala platená aplikácia. Obrátili sme sa na ministerstvo, SZTFH a Lechner a sprístupnia sa tu hneď, ako to bude potvrdené.",
+      "Földtan, földtani veszélyek és erdők": "Geológia a geologické riziká"
+    },
+    "sl": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Državni register zavarovanih območij narave, nacionalno ekološko omrežje, geološka karta 1:100.000, karta geoloških nevarnosti in karta zastajanja vode so navedeni na seznamu, vendar jih še ni mogoče odpreti: njihove licence še ne dovoljujejo jasno, da jih prikazuje plačljiva aplikacija. Vprašali smo ministrstvo, SZTFH in Lechner, in odklenili se bodo tukaj, takoj ko bo to potrjeno.",
+      "Földtan, földtani veszélyek és erdők": "Geologija in geološke nevarnosti"
+    },
+    "sv": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Det nationella registret över skyddade naturområden, det nationella ekologiska nätverket, den geologiska kartan 1:100 000, kartan över geologiska risker och kartan över stående ytvatten finns i listan men kan inte öppnas ännu: deras licenser tillåter ännu inte tydligt att en betalapp visar dem. Vi har frågat ministeriet, SZTFH och Lechner, och de låses upp här så snart det är bekräftat.",
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Observerade jordskred, sättningar och ras, Ungerns geologiska karta i 1:100 000 och kartan över geologiska risker (de två sista väntar på tillstånd).",
+      "Földtan, földtani veszélyek és erdők": "Geologi och geologiska risker"
+    },
+    "zh-HK": {
+      "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "國家受保護自然區登記冊、國家生態網絡、1:100,000地質圖、地質災害地圖及內陸積水地圖已列出但暫未能開啟：其授權尚未清楚容許收費應用程式顯示這些圖層。我們已向相關部門、SZTFH 及 Lechner 查詢，一經確認，即會在此解鎖。",
+      "Földtan, földtani veszélyek és erdők": "地質及地質災害"
+    },
+    "de": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Beobachtete Rutschungen, Senkungen und Einbrüche, die geologische Karte Ungarns 1:100.000 und die geologische Gefahrenkarte (für die letzten beiden steht die Erlaubnis noch aus).",
+      "Földtan, földtani veszélyek és erdők": "Geologie und Georisiken"
+    },
+    "de-CH": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Beobachtete Rutschungen, Senkungen und Einbrüche, die geologische Karte Ungarns 1:100.000 und die geologische Gefahrenkarte (für die letzten beiden steht die Erlaubnis noch aus).",
+      "Földtan, földtani veszélyek és erdők": "Geologie und Georisiken"
+    },
+    "es": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Deslizamientos, subsidencias y hundimientos observados, el mapa geológico 1:100.000 de Hungría y el mapa de peligros geológicos (estos dos últimos, a la espera de permiso).",
+      "Földtan, földtani veszélyek és erdők": "Geología y riesgos geológicos"
+    },
+    "es-419": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Deslizamientos, subsidencias y hundimientos observados, el mapa geológico 1:100,000 de Hungría y el mapa de peligros geológicos (estos dos últimos, a la espera de permiso).",
+      "Földtan, földtani veszélyek és erdők": "Geología y riesgos geológicos"
+    },
+    "fr": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Glissements de terrain, affaissements et effondrements observés, la carte géologique de la Hongrie au 1:100 000 et la carte des aléas géologiques (ces deux dernières couches attendent une autorisation).",
+      "Földtan, földtani veszélyek és erdők": "Géologie et risques géologiques"
+    },
+    "hu": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe és a földtani veszélyforrások (az utolsó kettő engedélyre vár).",
+      "Földtan, földtani veszélyek és erdők": "Földtan és földtani veszélyek"
+    },
+    "it": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Frane, subsidenze e sprofondamenti osservati, la carta geologica dell'Ungheria 1:100.000 e la carta dei pericoli geologici (le ultime due sono in attesa di autorizzazione).",
+      "Földtan, földtani veszélyek és erdők": "Geologia e rischi geologici"
+    },
+    "nl": {
+      "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Waargenomen aardverschuivingen, bodemdalingen en instortingen, de geologische kaart van Hongarije 1:100.000 en de kaart van geologische gevaren (de laatste twee zijn in afwachting van toestemming).",
+      "Földtan, földtani veszélyek és erdők": "Geologie en geologische risico's"
+    },
+    "el": {
+      "Földtan, földtani veszélyek és erdők": "Γεωλογία και γεωκίνδυνοι"
+    },
+    "ro": {
+      "Földtan, földtani veszélyek és erdők": "Geologie și riscuri geologice"
+    },
+    "bg": {
+      "Földtan, földtani veszélyek és erdők": "Геология и геоложки опасности"
+    }
+  },
   "minAppVersion": "2.6.1"
 }
