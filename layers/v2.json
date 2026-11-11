@@ -7,7 +7,10 @@
     "hk_special_areas",
     "hu_erdoreszletek",
     "jp_ekijoka",
-    "jp_tameike"
+    "jp_tameike",
+    "hr_poplave_velika",
+    "hr_poplave_srednja",
+    "hr_poplave_mala"
   ],
   "layers": [
     {
@@ -658,6 +661,528 @@
       },
       "attribution": "Grundlage: Daten aus dem Umweltinformationssystem (UIS) der LUBW Landesanstalt für Umwelt Baden-Württemberg.",
       "guidanceURL": "https://www.hochwasser.baden-wuerttemberg.de/hochwassergefahrenkarten"
+    },
+    {
+      "id": "hr_poplave_2019_velika",
+      "title": "Opasnost od poplava: velika vjerojatnost",
+      "group": "Landscape",
+      "subgroup": "Poplave",
+      "nation": "hr",
+      "source": {
+        "type": "wmsImage",
+        "endpoint": "https://servisi.voda.hr/poplave_opasnosti_2019/wms?FORMAT_OPTIONS=dpi:720",
+        "wmsLayers": "hr.fd.opasnost-od-poplave-velika-vjerojatnost_2019"
+      },
+      "kind": "polygon",
+      "colorHex": "#144DA8",
+      "fillOpacity": 0.6,
+      "minZoom": 15,
+      "titleFields": [
+        "GRAY_INDEX"
+      ],
+      "explainer": "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.",
+      "attribution": "Hrvatske vode, Karte opasnosti od poplava i karte rizika od poplava 2019.",
+      "guidanceURL": "https://www.voda.hr/hr/karte-opasnosti-od-poplava-i-karte-rizika-od-poplava-2019",
+      "translations": {
+        "bg": {
+          "Opasnost od poplava: velika vjerojatnost": "Заплаха от наводнения: висока вероятност",
+          "Poplave": "Наводнения",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Карти на заплахата от наводнения 2019 на Hrvatske vode: обхват и дълбочина на водата за три сценария: висока вероятност (период на повторение около 25 години), средна (около 100 години) и ниска (около 1000 години, включително скъсване на диги и язовирни стени). Картата се изчертава само в определен обхват от мащаби и може да изчезне при силно приближаване. Празна карта не изключва наводнение. Само за информация."
+        },
+        "cs": {
+          "Opasnost od poplava: velika vjerojatnost": "Povodňové nebezpečí: vysoká pravděpodobnost",
+          "Poplave": "Povodně",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy povodňového nebezpečí 2019 od Hrvatske vode: rozsah a hloubka vody pro tři scénáře: vysoká pravděpodobnost (doba opakování asi 25 let), střední (asi 100 let) a nízká (asi 1000 let, včetně protržení hrází a přehrad). Mapa se vykresluje jen v určitém rozsahu měřítek a při velkém přiblížení může zmizet. Prázdná mapa povodeň nevylučuje. Pouze pro informaci."
+        },
+        "da": {
+          "Opasnost od poplava: velika vjerojatnost": "Oversvømmelsesfare: høj sandsynlighed",
+          "Poplave": "Oversvømmelser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodes farekort for oversvømmelse 2019: udbredelse og vanddybde for tre scenarier: høj sandsynlighed (gentagelsesperiode på omkring 25 år), middel (omkring 100 år) og lav (omkring 1.000 år, inklusive brud på diger og dæmninger). Kortet tegnes kun inden for et bestemt skalaområde og kan forsvinde, når der zoomes meget tæt ind. Et tomt kort udelukker ikke oversvømmelse. Kun til orientering."
+        },
+        "de": {
+          "Opasnost od poplava: velika vjerojatnost": "Hochwassergefahr: hohe Wahrscheinlichkeit",
+          "Poplave": "Hochwasser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hochwassergefahrenkarten 2019 von Hrvatske vode: Ausdehnung und Wassertiefe für drei Szenarien: hohe Wahrscheinlichkeit (Wiederkehrintervall etwa 25 Jahre), mittlere (etwa 100 Jahre) und niedrige (etwa 1000 Jahre, einschließlich Deich- und Dammbruch). Die Karte wird nur in einem bestimmten Maßstabsbereich gezeichnet und kann bei starkem Hineinzoomen verschwinden. Eine leere Karte schließt Hochwasser nicht aus. Nur zur Information."
+        },
+        "de-CH": {
+          "Opasnost od poplava: velika vjerojatnost": "Hochwassergefahr: hohe Wahrscheinlichkeit",
+          "Poplave": "Hochwasser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hochwassergefahrenkarten 2019 von Hrvatske vode: Ausdehnung und Wassertiefe für drei Szenarien: hohe Wahrscheinlichkeit (Wiederkehrintervall etwa 25 Jahre), mittlere (etwa 100 Jahre) und niedrige (etwa 1000 Jahre, einschliesslich Deich- und Dammbruch). Die Karte wird nur in einem bestimmten Massstabsbereich gezeichnet und kann bei starkem Hineinzoomen verschwinden. Eine leere Karte schliesst Hochwasser nicht aus. Nur zur Information."
+        },
+        "el": {
+          "Opasnost od poplava: velika vjerojatnost": "Επικινδυνότητα πλημμύρας: υψηλή πιθανότητα",
+          "Poplave": "Πλημμύρες",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Χάρτες επικινδυνότητας πλημμύρας 2019 της Hrvatske vode: έκταση και βάθος νερού για τρία σενάρια: υψηλή πιθανότητα (περίοδος επαναφοράς περίπου 25 ετών), μέση (περίπου 100 ετών) και χαμηλή (περίπου 1.000 ετών, συμπεριλαμβανομένης της αστοχίας αναχωμάτων και φραγμάτων). Ο χάρτης σχεδιάζεται μόνο σε ορισμένο εύρος κλιμάκων και μπορεί να εξαφανιστεί σε πολύ μεγάλη μεγέθυνση. Ένας κενός χάρτης δεν αποκλείει την πλημμύρα. Μόνο για ενημέρωση."
+        },
+        "en": {
+          "Opasnost od poplava: velika vjerojatnost": "Flood hazard: high probability",
+          "Poplave": "Flooding",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode's 2019 flood hazard maps: flood extent and water depth for three scenarios: high probability (a return period of about 25 years), medium (about 100 years) and low (about 1,000 years, including levee and dam failure). The map is drawn only within a set scale range and can disappear when zoomed in very close. A blank map does not rule out flooding. For information only."
+        },
+        "es": {
+          "Opasnost od poplava: velika vjerojatnost": "Peligrosidad de inundación: probabilidad alta",
+          "Poplave": "Inundaciones",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de peligrosidad de inundación 2019 de Hrvatske vode: extensión y calado para tres escenarios: probabilidad alta (periodo de retorno de unos 25 años), media (unos 100 años) y baja (unos 1000 años, incluida la rotura de diques y presas). El mapa solo se dibuja dentro de un intervalo de escalas y puede desaparecer al acercarse mucho. Un mapa vacío no descarta inundaciones. Solo a título informativo."
+        },
+        "es-419": {
+          "Opasnost od poplava: velika vjerojatnost": "Peligrosidad de inundación: probabilidad alta",
+          "Poplave": "Inundaciones",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de peligrosidad de inundación 2019 de Hrvatske vode: extensión y profundidad del agua para tres escenarios: probabilidad alta (período de retorno de unos 25 años), media (unos 100 años) y baja (unos 1000 años, incluida la ruptura de diques y represas). El mapa solo se dibuja dentro de un rango de escalas y puede desaparecer al acercarse mucho. Un mapa vacío no descarta inundaciones. Solo a título informativo."
+        },
+        "et": {
+          "Opasnost od poplava: velika vjerojatnost": "Üleujutusoht: suur tõenäosus",
+          "Poplave": "Üleujutused",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode üleujutusohu kaardid 2019: üleujutuse ulatus ja veesügavus kolme stsenaariumi korral: suur tõenäosus (kordumisaeg umbes 25 aastat), keskmine (umbes 100 aastat) ja väike (umbes 1000 aastat, sh tammide ja paisude purunemine). Kaarti joonistatakse ainult kindlas mõõtkavavahemikus ja see võib väga lähedale suurendades kaduda. Tühi kaart ei välista üleujutust. Ainult teadmiseks."
+        },
+        "fi": {
+          "Opasnost od poplava: velika vjerojatnost": "Tulvavaara: suuri todennäköisyys",
+          "Poplave": "Tulvat",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske voden tulvavaarakartat 2019: tulvan laajuus ja vesisyvyys kolmessa skenaariossa: suuri todennäköisyys (toistuvuus noin 25 vuotta), keskisuuri (noin 100 vuotta) ja pieni (noin 1 000 vuotta, mukaan lukien penkereiden ja patojen murtuminen). Kartta piirretään vain tietyllä mittakaava-alueella, ja se voi kadota, kun karttaa lähennetään paljon. Tyhjä kartta ei sulje pois tulvaa. Vain tiedoksi."
+        },
+        "fr": {
+          "Opasnost od poplava: velika vjerojatnost": "Aléa inondation : forte probabilité",
+          "Poplave": "Inondations",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Cartes 2019 de l'aléa inondation de Hrvatske vode : étendue et hauteur d'eau pour trois scénarios : forte probabilité (période de retour d'environ 25 ans), moyenne (environ 100 ans) et faible (environ 1 000 ans, y compris la rupture de digues et de barrages). La carte n'est dessinée que dans une plage d'échelles donnée et peut disparaître avec un zoom très rapproché. Une carte vide n'exclut pas l'inondation. À titre indicatif."
+        },
+        "hr": {
+          "Opasnost od poplava: velika vjerojatnost": "Opasnost od poplava: velika vjerojatnost",
+          "Poplave": "Poplave",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera."
+        },
+        "hu": {
+          "Opasnost od poplava: velika vjerojatnost": "Árvízveszély: nagy valószínűség",
+          "Poplave": "Árvíz",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "A Hrvatske vode 2019-es árvízveszély-térképei: az elöntés kiterjedése és a vízmélység három forgatókönyvre: nagy valószínűség (kb. 25 éves visszatérési idő), közepes (kb. 100 év) és kis valószínűség (kb. 1000 év, gát- és töltésszakadással együtt). A térkép csak egy meghatározott méretarány-tartományban jelenik meg, és erős nagyításnál eltűnhet. Az üres térkép nem zárja ki az árvizet. Csak tájékoztató jellegű."
+        },
+        "is": {
+          "Opasnost od poplava: velika vjerojatnost": "Flóðahætta: miklar líkur",
+          "Poplave": "Flóð",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Flóðahættukort Hrvatske vode frá 2019: útbreiðsla og vatnsdýpi fyrir þrjár sviðsmyndir: miklar líkur (endurkomutími um 25 ár), miðlungslíkur (um 100 ár) og litlar líkur (um 1.000 ár, að meðtöldu rofi varnargarða og stíflna). Kortið er aðeins teiknað innan ákveðins kvarðabils og getur horfið þegar þysjað er mjög nærri. Autt kort útilokar ekki flóð. Aðeins til upplýsingar."
+        },
+        "it": {
+          "Opasnost od poplava: velika vjerojatnost": "Pericolosità di alluvione: alta probabilità",
+          "Poplave": "Alluvioni",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mappe di pericolosità da alluvione 2019 di Hrvatske vode: estensione e profondità dell'acqua per tre scenari: alta probabilità (tempo di ritorno di circa 25 anni), media (circa 100 anni) e bassa (circa 1000 anni, compreso il cedimento di argini e dighe). La mappa viene disegnata solo entro un certo intervallo di scale e può scomparire con uno zoom molto ravvicinato. Una mappa vuota non esclude le alluvioni. Solo a scopo informativo."
+        },
+        "ja": {
+          "Opasnost od poplava: velika vjerojatnost": "洪水ハザード：高確率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodeの2019年洪水ハザードマップ。3つのシナリオの浸水範囲と浸水深を示します：高確率（再現期間約25年）、中確率（約100年）、低確率（約1,000年、堤防やダムの決壊を含む）。この地図は一定の縮尺範囲でのみ描画され、大きく拡大すると表示されなくなることがあります。何も表示されなくても浸水の可能性は否定されません。参考情報です。"
+        },
+        "lt": {
+          "Opasnost od poplava: velika vjerojatnost": "Potvynių grėsmė: didelė tikimybė",
+          "Poplave": "Potvyniai",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 m. potvynių grėsmės žemėlapiai: užliejamo ploto ribos ir vandens gylis trims scenarijams: didelė tikimybė (pasikartojimo laikotarpis apie 25 metus), vidutinė (apie 100 metų) ir maža (apie 1000 metų, įskaitant pylimų ir užtvankų pratrūkimą). Žemėlapis piešiamas tik tam tikrame mastelių intervale ir labai priartinus gali išnykti. Tuščias žemėlapis neatmeta potvynio galimybės. Tik informacijai."
+        },
+        "lv": {
+          "Opasnost od poplava: velika vjerojatnost": "Plūdu apdraudējums: augsta varbūtība",
+          "Poplave": "Plūdi",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019. gada plūdu apdraudējuma kartes: applūšanas apjoms un ūdens dziļums trim scenārijiem: augsta varbūtība (atkārtošanās periods aptuveni 25 gadi), vidēja (aptuveni 100 gadi) un zema (aptuveni 1000 gadi, ieskaitot dambju un aizsprostu pārrāvumus). Karte tiek zīmēta tikai noteiktā mērogu diapazonā un var pazust, ja to ļoti pietuvina. Tukša karte neizslēdz plūdus. Tikai informācijai."
+        },
+        "nb": {
+          "Opasnost od poplava: velika vjerojatnost": "Flomfare: høy sannsynlighet",
+          "Poplave": "Flom",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Flomfarekart 2019 fra Hrvatske vode: utbredelse og vanndybde for tre scenarioer: høy sannsynlighet (gjentaksintervall på om lag 25 år), middels (om lag 100 år) og lav (om lag 1000 år, inkludert brudd i diker og dammer). Kartet tegnes bare innenfor et bestemt målestokkområde og kan forsvinne når du zoomer langt inn. Et tomt kart utelukker ikke flom. Kun til orientering."
+        },
+        "nl": {
+          "Opasnost od poplava: velika vjerojatnost": "Overstromingsgevaar: grote kans",
+          "Poplave": "Overstromingen",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Overstromingsgevaarkaarten 2019 van Hrvatske vode: omvang en waterdiepte voor drie scenario's: grote kans (herhalingstijd van ongeveer 25 jaar), middelgrote kans (ongeveer 100 jaar) en kleine kans (ongeveer 1000 jaar, inclusief het bezwijken van dijken en dammen). De kaart wordt alleen binnen een bepaald schaalbereik getekend en kan verdwijnen bij ver inzoomen. Een lege kaart sluit een overstroming niet uit. Alleen ter informatie."
+        },
+        "pl": {
+          "Opasnost od poplava: velika vjerojatnost": "Zagrożenie powodziowe: wysokie prawdopodobieństwo",
+          "Poplave": "Powodzie",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy zagrożenia powodziowego 2019 Hrvatske vode: zasięg i głębokość wody dla trzech scenariuszy: wysokie prawdopodobieństwo (okres powtarzalności około 25 lat), średnie (około 100 lat) i niskie (około 1000 lat, w tym przerwanie wałów i zapór). Mapa jest rysowana tylko w określonym zakresie skal i może zniknąć przy bardzo dużym przybliżeniu. Pusta mapa nie wyklucza powodzi. Wyłącznie informacyjnie."
+        },
+        "pt-BR": {
+          "Opasnost od poplava: velika vjerojatnost": "Perigo de inundação: probabilidade alta",
+          "Poplave": "Inundações",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de perigo de inundação de 2019 da Hrvatske vode: extensão e profundidade da água para três cenários: probabilidade alta (período de retorno de cerca de 25 anos), média (cerca de 100 anos) e baixa (cerca de 1.000 anos, incluindo rompimento de diques e barragens). O mapa só é desenhado em uma determinada faixa de escalas e pode desaparecer com zoom muito próximo. Um mapa vazio não descarta inundações. Apenas para informação."
+        },
+        "pt-PT": {
+          "Opasnost od poplava: velika vjerojatnost": "Perigo de inundação: probabilidade elevada",
+          "Poplave": "Cheias",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Cartas de perigosidade de inundação de 2019 da Hrvatske vode: extensão e profundidade da água para três cenários: probabilidade elevada (período de retorno de cerca de 25 anos), média (cerca de 100 anos) e baixa (cerca de 1000 anos, incluindo rotura de diques e barragens). O mapa só é desenhado num determinado intervalo de escalas e pode desaparecer com um zoom muito próximo. Um mapa vazio não exclui inundações. Apenas para informação."
+        },
+        "ro": {
+          "Opasnost od poplava: velika vjerojatnost": "Hazard la inundații: probabilitate ridicată",
+          "Poplave": "Inundații",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hărțile de hazard la inundații 2019 ale Hrvatske vode: extinderea și adâncimea apei pentru trei scenarii: probabilitate ridicată (perioadă de revenire de circa 25 de ani), medie (circa 100 de ani) și scăzută (circa 1.000 de ani, inclusiv ruperea digurilor și a barajelor). Harta este desenată doar într-un anumit interval de scări și poate dispărea la o mărire foarte mare. O hartă goală nu exclude inundațiile. Doar cu titlu informativ."
+        },
+        "sk": {
+          "Opasnost od poplava: velika vjerojatnost": "Povodňové ohrozenie: vysoká pravdepodobnosť",
+          "Poplave": "Povodne",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy povodňového ohrozenia 2019 od Hrvatske vode: rozsah a hĺbka vody pre tri scenáre: vysoká pravdepodobnosť (doba opakovania asi 25 rokov), stredná (asi 100 rokov) a nízka (asi 1000 rokov, vrátane pretrhnutia hrádzí a priehrad). Mapa sa vykresľuje len v určitom rozsahu mierok a pri veľkom priblížení môže zmiznúť. Prázdna mapa povodeň nevylučuje. Len na informáciu."
+        },
+        "sl": {
+          "Opasnost od poplava: velika vjerojatnost": "Poplavna nevarnost: velika verjetnost",
+          "Poplave": "Poplave",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Karte poplavne nevarnosti 2019 Hrvatskih voda: obseg in globina vode za tri scenarije: velika verjetnost (povratna doba približno 25 let), srednja (približno 100 let) in majhna (približno 1000 let, vključno s porušitvijo nasipov in pregrad). Karta se izriše le v določenem razponu meril in lahko ob močni povečavi izgine. Prazna karta poplave ne izključuje. Samo informativno."
+        },
+        "sv": {
+          "Opasnost od poplava: velika vjerojatnost": "Översvämningsfara: hög sannolikhet",
+          "Poplave": "Översvämningar",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodes hotkartor för översvämning 2019: utbredning och vattendjup för tre scenarier: hög sannolikhet (återkomsttid omkring 25 år), medelhög (omkring 100 år) och låg (omkring 1 000 år, inklusive brott på vallar och dammar). Kartan ritas bara inom ett visst skalintervall och kan försvinna när man zoomar in mycket nära. En tom karta utesluter inte översvämning. Endast som information."
+        },
+        "zh-HK": {
+          "Opasnost od poplava: velika vjerojatnost": "洪水危險：高概率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 年洪水危險地圖：三種情景下的淹浸範圍及水深：高概率（重現期約 25 年）、中概率（約 100 年）及低概率（約 1,000 年，包括堤圍及水壩崩潰）。地圖只在指定比例尺範圍內顯示，放得很大時可能消失。地圖空白並不代表沒有水浸風險。僅供參考。"
+        },
+        "zh-Hant": {
+          "Opasnost od poplava: velika vjerojatnost": "洪水危險：高機率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 年淹水潛勢圖：三種情境下的淹水範圍與水深：高機率（重現期約 25 年）、中機率（約 100 年）與低機率（約 1,000 年，包括堤防與水壩潰決）。地圖只在特定比例尺範圍內顯示，放大很多時可能消失。地圖空白不代表不會淹水。僅供參考。"
+        }
+      }
+    },
+    {
+      "id": "hr_poplave_2019_srednja",
+      "title": "Opasnost od poplava: srednja vjerojatnost",
+      "group": "Landscape",
+      "subgroup": "Poplave",
+      "nation": "hr",
+      "source": {
+        "type": "wmsImage",
+        "endpoint": "https://servisi.voda.hr/poplave_opasnosti_2019/wms?FORMAT_OPTIONS=dpi:720",
+        "wmsLayers": "hr.fd.opasnost-od-poplave-srednja-vjerojatnost_2019"
+      },
+      "kind": "polygon",
+      "colorHex": "#3380D6",
+      "fillOpacity": 0.6,
+      "minZoom": 15,
+      "titleFields": [
+        "GRAY_INDEX"
+      ],
+      "explainer": "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.",
+      "attribution": "Hrvatske vode, Karte opasnosti od poplava i karte rizika od poplava 2019.",
+      "guidanceURL": "https://www.voda.hr/hr/karte-opasnosti-od-poplava-i-karte-rizika-od-poplava-2019",
+      "translations": {
+        "bg": {
+          "Opasnost od poplava: srednja vjerojatnost": "Заплаха от наводнения: средна вероятност",
+          "Poplave": "Наводнения",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Карти на заплахата от наводнения 2019 на Hrvatske vode: обхват и дълбочина на водата за три сценария: висока вероятност (период на повторение около 25 години), средна (около 100 години) и ниска (около 1000 години, включително скъсване на диги и язовирни стени). Картата се изчертава само в определен обхват от мащаби и може да изчезне при силно приближаване. Празна карта не изключва наводнение. Само за информация."
+        },
+        "cs": {
+          "Opasnost od poplava: srednja vjerojatnost": "Povodňové nebezpečí: střední pravděpodobnost",
+          "Poplave": "Povodně",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy povodňového nebezpečí 2019 od Hrvatske vode: rozsah a hloubka vody pro tři scénáře: vysoká pravděpodobnost (doba opakování asi 25 let), střední (asi 100 let) a nízká (asi 1000 let, včetně protržení hrází a přehrad). Mapa se vykresluje jen v určitém rozsahu měřítek a při velkém přiblížení může zmizet. Prázdná mapa povodeň nevylučuje. Pouze pro informaci."
+        },
+        "da": {
+          "Opasnost od poplava: srednja vjerojatnost": "Oversvømmelsesfare: middel sandsynlighed",
+          "Poplave": "Oversvømmelser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodes farekort for oversvømmelse 2019: udbredelse og vanddybde for tre scenarier: høj sandsynlighed (gentagelsesperiode på omkring 25 år), middel (omkring 100 år) og lav (omkring 1.000 år, inklusive brud på diger og dæmninger). Kortet tegnes kun inden for et bestemt skalaområde og kan forsvinde, når der zoomes meget tæt ind. Et tomt kort udelukker ikke oversvømmelse. Kun til orientering."
+        },
+        "de": {
+          "Opasnost od poplava: srednja vjerojatnost": "Hochwassergefahr: mittlere Wahrscheinlichkeit",
+          "Poplave": "Hochwasser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hochwassergefahrenkarten 2019 von Hrvatske vode: Ausdehnung und Wassertiefe für drei Szenarien: hohe Wahrscheinlichkeit (Wiederkehrintervall etwa 25 Jahre), mittlere (etwa 100 Jahre) und niedrige (etwa 1000 Jahre, einschließlich Deich- und Dammbruch). Die Karte wird nur in einem bestimmten Maßstabsbereich gezeichnet und kann bei starkem Hineinzoomen verschwinden. Eine leere Karte schließt Hochwasser nicht aus. Nur zur Information."
+        },
+        "de-CH": {
+          "Opasnost od poplava: srednja vjerojatnost": "Hochwassergefahr: mittlere Wahrscheinlichkeit",
+          "Poplave": "Hochwasser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hochwassergefahrenkarten 2019 von Hrvatske vode: Ausdehnung und Wassertiefe für drei Szenarien: hohe Wahrscheinlichkeit (Wiederkehrintervall etwa 25 Jahre), mittlere (etwa 100 Jahre) und niedrige (etwa 1000 Jahre, einschliesslich Deich- und Dammbruch). Die Karte wird nur in einem bestimmten Massstabsbereich gezeichnet und kann bei starkem Hineinzoomen verschwinden. Eine leere Karte schliesst Hochwasser nicht aus. Nur zur Information."
+        },
+        "el": {
+          "Opasnost od poplava: srednja vjerojatnost": "Επικινδυνότητα πλημμύρας: μέση πιθανότητα",
+          "Poplave": "Πλημμύρες",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Χάρτες επικινδυνότητας πλημμύρας 2019 της Hrvatske vode: έκταση και βάθος νερού για τρία σενάρια: υψηλή πιθανότητα (περίοδος επαναφοράς περίπου 25 ετών), μέση (περίπου 100 ετών) και χαμηλή (περίπου 1.000 ετών, συμπεριλαμβανομένης της αστοχίας αναχωμάτων και φραγμάτων). Ο χάρτης σχεδιάζεται μόνο σε ορισμένο εύρος κλιμάκων και μπορεί να εξαφανιστεί σε πολύ μεγάλη μεγέθυνση. Ένας κενός χάρτης δεν αποκλείει την πλημμύρα. Μόνο για ενημέρωση."
+        },
+        "en": {
+          "Opasnost od poplava: srednja vjerojatnost": "Flood hazard: medium probability",
+          "Poplave": "Flooding",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode's 2019 flood hazard maps: flood extent and water depth for three scenarios: high probability (a return period of about 25 years), medium (about 100 years) and low (about 1,000 years, including levee and dam failure). The map is drawn only within a set scale range and can disappear when zoomed in very close. A blank map does not rule out flooding. For information only."
+        },
+        "es": {
+          "Opasnost od poplava: srednja vjerojatnost": "Peligrosidad de inundación: probabilidad media",
+          "Poplave": "Inundaciones",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de peligrosidad de inundación 2019 de Hrvatske vode: extensión y calado para tres escenarios: probabilidad alta (periodo de retorno de unos 25 años), media (unos 100 años) y baja (unos 1000 años, incluida la rotura de diques y presas). El mapa solo se dibuja dentro de un intervalo de escalas y puede desaparecer al acercarse mucho. Un mapa vacío no descarta inundaciones. Solo a título informativo."
+        },
+        "es-419": {
+          "Opasnost od poplava: srednja vjerojatnost": "Peligrosidad de inundación: probabilidad media",
+          "Poplave": "Inundaciones",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de peligrosidad de inundación 2019 de Hrvatske vode: extensión y profundidad del agua para tres escenarios: probabilidad alta (período de retorno de unos 25 años), media (unos 100 años) y baja (unos 1000 años, incluida la ruptura de diques y represas). El mapa solo se dibuja dentro de un rango de escalas y puede desaparecer al acercarse mucho. Un mapa vacío no descarta inundaciones. Solo a título informativo."
+        },
+        "et": {
+          "Opasnost od poplava: srednja vjerojatnost": "Üleujutusoht: keskmine tõenäosus",
+          "Poplave": "Üleujutused",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode üleujutusohu kaardid 2019: üleujutuse ulatus ja veesügavus kolme stsenaariumi korral: suur tõenäosus (kordumisaeg umbes 25 aastat), keskmine (umbes 100 aastat) ja väike (umbes 1000 aastat, sh tammide ja paisude purunemine). Kaarti joonistatakse ainult kindlas mõõtkavavahemikus ja see võib väga lähedale suurendades kaduda. Tühi kaart ei välista üleujutust. Ainult teadmiseks."
+        },
+        "fi": {
+          "Opasnost od poplava: srednja vjerojatnost": "Tulvavaara: keskisuuri todennäköisyys",
+          "Poplave": "Tulvat",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske voden tulvavaarakartat 2019: tulvan laajuus ja vesisyvyys kolmessa skenaariossa: suuri todennäköisyys (toistuvuus noin 25 vuotta), keskisuuri (noin 100 vuotta) ja pieni (noin 1 000 vuotta, mukaan lukien penkereiden ja patojen murtuminen). Kartta piirretään vain tietyllä mittakaava-alueella, ja se voi kadota, kun karttaa lähennetään paljon. Tyhjä kartta ei sulje pois tulvaa. Vain tiedoksi."
+        },
+        "fr": {
+          "Opasnost od poplava: srednja vjerojatnost": "Aléa inondation : probabilité moyenne",
+          "Poplave": "Inondations",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Cartes 2019 de l'aléa inondation de Hrvatske vode : étendue et hauteur d'eau pour trois scénarios : forte probabilité (période de retour d'environ 25 ans), moyenne (environ 100 ans) et faible (environ 1 000 ans, y compris la rupture de digues et de barrages). La carte n'est dessinée que dans une plage d'échelles donnée et peut disparaître avec un zoom très rapproché. Une carte vide n'exclut pas l'inondation. À titre indicatif."
+        },
+        "hr": {
+          "Opasnost od poplava: srednja vjerojatnost": "Opasnost od poplava: srednja vjerojatnost",
+          "Poplave": "Poplave",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera."
+        },
+        "hu": {
+          "Opasnost od poplava: srednja vjerojatnost": "Árvízveszély: közepes valószínűség",
+          "Poplave": "Árvíz",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "A Hrvatske vode 2019-es árvízveszély-térképei: az elöntés kiterjedése és a vízmélység három forgatókönyvre: nagy valószínűség (kb. 25 éves visszatérési idő), közepes (kb. 100 év) és kis valószínűség (kb. 1000 év, gát- és töltésszakadással együtt). A térkép csak egy meghatározott méretarány-tartományban jelenik meg, és erős nagyításnál eltűnhet. Az üres térkép nem zárja ki az árvizet. Csak tájékoztató jellegű."
+        },
+        "is": {
+          "Opasnost od poplava: srednja vjerojatnost": "Flóðahætta: miðlungslíkur",
+          "Poplave": "Flóð",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Flóðahættukort Hrvatske vode frá 2019: útbreiðsla og vatnsdýpi fyrir þrjár sviðsmyndir: miklar líkur (endurkomutími um 25 ár), miðlungslíkur (um 100 ár) og litlar líkur (um 1.000 ár, að meðtöldu rofi varnargarða og stíflna). Kortið er aðeins teiknað innan ákveðins kvarðabils og getur horfið þegar þysjað er mjög nærri. Autt kort útilokar ekki flóð. Aðeins til upplýsingar."
+        },
+        "it": {
+          "Opasnost od poplava: srednja vjerojatnost": "Pericolosità di alluvione: media probabilità",
+          "Poplave": "Alluvioni",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mappe di pericolosità da alluvione 2019 di Hrvatske vode: estensione e profondità dell'acqua per tre scenari: alta probabilità (tempo di ritorno di circa 25 anni), media (circa 100 anni) e bassa (circa 1000 anni, compreso il cedimento di argini e dighe). La mappa viene disegnata solo entro un certo intervallo di scale e può scomparire con uno zoom molto ravvicinato. Una mappa vuota non esclude le alluvioni. Solo a scopo informativo."
+        },
+        "ja": {
+          "Opasnost od poplava: srednja vjerojatnost": "洪水ハザード：中確率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodeの2019年洪水ハザードマップ。3つのシナリオの浸水範囲と浸水深を示します：高確率（再現期間約25年）、中確率（約100年）、低確率（約1,000年、堤防やダムの決壊を含む）。この地図は一定の縮尺範囲でのみ描画され、大きく拡大すると表示されなくなることがあります。何も表示されなくても浸水の可能性は否定されません。参考情報です。"
+        },
+        "lt": {
+          "Opasnost od poplava: srednja vjerojatnost": "Potvynių grėsmė: vidutinė tikimybė",
+          "Poplave": "Potvyniai",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 m. potvynių grėsmės žemėlapiai: užliejamo ploto ribos ir vandens gylis trims scenarijams: didelė tikimybė (pasikartojimo laikotarpis apie 25 metus), vidutinė (apie 100 metų) ir maža (apie 1000 metų, įskaitant pylimų ir užtvankų pratrūkimą). Žemėlapis piešiamas tik tam tikrame mastelių intervale ir labai priartinus gali išnykti. Tuščias žemėlapis neatmeta potvynio galimybės. Tik informacijai."
+        },
+        "lv": {
+          "Opasnost od poplava: srednja vjerojatnost": "Plūdu apdraudējums: vidēja varbūtība",
+          "Poplave": "Plūdi",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019. gada plūdu apdraudējuma kartes: applūšanas apjoms un ūdens dziļums trim scenārijiem: augsta varbūtība (atkārtošanās periods aptuveni 25 gadi), vidēja (aptuveni 100 gadi) un zema (aptuveni 1000 gadi, ieskaitot dambju un aizsprostu pārrāvumus). Karte tiek zīmēta tikai noteiktā mērogu diapazonā un var pazust, ja to ļoti pietuvina. Tukša karte neizslēdz plūdus. Tikai informācijai."
+        },
+        "nb": {
+          "Opasnost od poplava: srednja vjerojatnost": "Flomfare: middels sannsynlighet",
+          "Poplave": "Flom",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Flomfarekart 2019 fra Hrvatske vode: utbredelse og vanndybde for tre scenarioer: høy sannsynlighet (gjentaksintervall på om lag 25 år), middels (om lag 100 år) og lav (om lag 1000 år, inkludert brudd i diker og dammer). Kartet tegnes bare innenfor et bestemt målestokkområde og kan forsvinne når du zoomer langt inn. Et tomt kart utelukker ikke flom. Kun til orientering."
+        },
+        "nl": {
+          "Opasnost od poplava: srednja vjerojatnost": "Overstromingsgevaar: middelgrote kans",
+          "Poplave": "Overstromingen",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Overstromingsgevaarkaarten 2019 van Hrvatske vode: omvang en waterdiepte voor drie scenario's: grote kans (herhalingstijd van ongeveer 25 jaar), middelgrote kans (ongeveer 100 jaar) en kleine kans (ongeveer 1000 jaar, inclusief het bezwijken van dijken en dammen). De kaart wordt alleen binnen een bepaald schaalbereik getekend en kan verdwijnen bij ver inzoomen. Een lege kaart sluit een overstroming niet uit. Alleen ter informatie."
+        },
+        "pl": {
+          "Opasnost od poplava: srednja vjerojatnost": "Zagrożenie powodziowe: średnie prawdopodobieństwo",
+          "Poplave": "Powodzie",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy zagrożenia powodziowego 2019 Hrvatske vode: zasięg i głębokość wody dla trzech scenariuszy: wysokie prawdopodobieństwo (okres powtarzalności około 25 lat), średnie (około 100 lat) i niskie (około 1000 lat, w tym przerwanie wałów i zapór). Mapa jest rysowana tylko w określonym zakresie skal i może zniknąć przy bardzo dużym przybliżeniu. Pusta mapa nie wyklucza powodzi. Wyłącznie informacyjnie."
+        },
+        "pt-BR": {
+          "Opasnost od poplava: srednja vjerojatnost": "Perigo de inundação: probabilidade média",
+          "Poplave": "Inundações",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de perigo de inundação de 2019 da Hrvatske vode: extensão e profundidade da água para três cenários: probabilidade alta (período de retorno de cerca de 25 anos), média (cerca de 100 anos) e baixa (cerca de 1.000 anos, incluindo rompimento de diques e barragens). O mapa só é desenhado em uma determinada faixa de escalas e pode desaparecer com zoom muito próximo. Um mapa vazio não descarta inundações. Apenas para informação."
+        },
+        "pt-PT": {
+          "Opasnost od poplava: srednja vjerojatnost": "Perigo de inundação: probabilidade média",
+          "Poplave": "Cheias",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Cartas de perigosidade de inundação de 2019 da Hrvatske vode: extensão e profundidade da água para três cenários: probabilidade elevada (período de retorno de cerca de 25 anos), média (cerca de 100 anos) e baixa (cerca de 1000 anos, incluindo rotura de diques e barragens). O mapa só é desenhado num determinado intervalo de escalas e pode desaparecer com um zoom muito próximo. Um mapa vazio não exclui inundações. Apenas para informação."
+        },
+        "ro": {
+          "Opasnost od poplava: srednja vjerojatnost": "Hazard la inundații: probabilitate medie",
+          "Poplave": "Inundații",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hărțile de hazard la inundații 2019 ale Hrvatske vode: extinderea și adâncimea apei pentru trei scenarii: probabilitate ridicată (perioadă de revenire de circa 25 de ani), medie (circa 100 de ani) și scăzută (circa 1.000 de ani, inclusiv ruperea digurilor și a barajelor). Harta este desenată doar într-un anumit interval de scări și poate dispărea la o mărire foarte mare. O hartă goală nu exclude inundațiile. Doar cu titlu informativ."
+        },
+        "sk": {
+          "Opasnost od poplava: srednja vjerojatnost": "Povodňové ohrozenie: stredná pravdepodobnosť",
+          "Poplave": "Povodne",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy povodňového ohrozenia 2019 od Hrvatske vode: rozsah a hĺbka vody pre tri scenáre: vysoká pravdepodobnosť (doba opakovania asi 25 rokov), stredná (asi 100 rokov) a nízka (asi 1000 rokov, vrátane pretrhnutia hrádzí a priehrad). Mapa sa vykresľuje len v určitom rozsahu mierok a pri veľkom priblížení môže zmiznúť. Prázdna mapa povodeň nevylučuje. Len na informáciu."
+        },
+        "sl": {
+          "Opasnost od poplava: srednja vjerojatnost": "Poplavna nevarnost: srednja verjetnost",
+          "Poplave": "Poplave",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Karte poplavne nevarnosti 2019 Hrvatskih voda: obseg in globina vode za tri scenarije: velika verjetnost (povratna doba približno 25 let), srednja (približno 100 let) in majhna (približno 1000 let, vključno s porušitvijo nasipov in pregrad). Karta se izriše le v določenem razponu meril in lahko ob močni povečavi izgine. Prazna karta poplave ne izključuje. Samo informativno."
+        },
+        "sv": {
+          "Opasnost od poplava: srednja vjerojatnost": "Översvämningsfara: medelhög sannolikhet",
+          "Poplave": "Översvämningar",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodes hotkartor för översvämning 2019: utbredning och vattendjup för tre scenarier: hög sannolikhet (återkomsttid omkring 25 år), medelhög (omkring 100 år) och låg (omkring 1 000 år, inklusive brott på vallar och dammar). Kartan ritas bara inom ett visst skalintervall och kan försvinna när man zoomar in mycket nära. En tom karta utesluter inte översvämning. Endast som information."
+        },
+        "zh-HK": {
+          "Opasnost od poplava: srednja vjerojatnost": "洪水危險：中概率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 年洪水危險地圖：三種情景下的淹浸範圍及水深：高概率（重現期約 25 年）、中概率（約 100 年）及低概率（約 1,000 年，包括堤圍及水壩崩潰）。地圖只在指定比例尺範圍內顯示，放得很大時可能消失。地圖空白並不代表沒有水浸風險。僅供參考。"
+        },
+        "zh-Hant": {
+          "Opasnost od poplava: srednja vjerojatnost": "洪水危險：中機率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 年淹水潛勢圖：三種情境下的淹水範圍與水深：高機率（重現期約 25 年）、中機率（約 100 年）與低機率（約 1,000 年，包括堤防與水壩潰決）。地圖只在特定比例尺範圍內顯示，放大很多時可能消失。地圖空白不代表不會淹水。僅供參考。"
+        }
+      }
+    },
+    {
+      "id": "hr_poplave_2019_mala",
+      "title": "Opasnost od poplava: mala vjerojatnost",
+      "group": "Landscape",
+      "subgroup": "Poplave",
+      "nation": "hr",
+      "source": {
+        "type": "wmsImage",
+        "endpoint": "https://servisi.voda.hr/poplave_opasnosti_2019/wms?FORMAT_OPTIONS=dpi:720",
+        "wmsLayers": "hr.fd.opasnost-od-poplave-mala-vjerojatnost_2019"
+      },
+      "kind": "polygon",
+      "colorHex": "#75B3EB",
+      "fillOpacity": 0.6,
+      "minZoom": 15,
+      "titleFields": [
+        "GRAY_INDEX"
+      ],
+      "explainer": "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.",
+      "attribution": "Hrvatske vode, Karte opasnosti od poplava i karte rizika od poplava 2019.",
+      "guidanceURL": "https://www.voda.hr/hr/karte-opasnosti-od-poplava-i-karte-rizika-od-poplava-2019",
+      "translations": {
+        "bg": {
+          "Opasnost od poplava: mala vjerojatnost": "Заплаха от наводнения: ниска вероятност",
+          "Poplave": "Наводнения",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Карти на заплахата от наводнения 2019 на Hrvatske vode: обхват и дълбочина на водата за три сценария: висока вероятност (период на повторение около 25 години), средна (около 100 години) и ниска (около 1000 години, включително скъсване на диги и язовирни стени). Картата се изчертава само в определен обхват от мащаби и може да изчезне при силно приближаване. Празна карта не изключва наводнение. Само за информация."
+        },
+        "cs": {
+          "Opasnost od poplava: mala vjerojatnost": "Povodňové nebezpečí: nízká pravděpodobnost",
+          "Poplave": "Povodně",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy povodňového nebezpečí 2019 od Hrvatske vode: rozsah a hloubka vody pro tři scénáře: vysoká pravděpodobnost (doba opakování asi 25 let), střední (asi 100 let) a nízká (asi 1000 let, včetně protržení hrází a přehrad). Mapa se vykresluje jen v určitém rozsahu měřítek a při velkém přiblížení může zmizet. Prázdná mapa povodeň nevylučuje. Pouze pro informaci."
+        },
+        "da": {
+          "Opasnost od poplava: mala vjerojatnost": "Oversvømmelsesfare: lav sandsynlighed",
+          "Poplave": "Oversvømmelser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodes farekort for oversvømmelse 2019: udbredelse og vanddybde for tre scenarier: høj sandsynlighed (gentagelsesperiode på omkring 25 år), middel (omkring 100 år) og lav (omkring 1.000 år, inklusive brud på diger og dæmninger). Kortet tegnes kun inden for et bestemt skalaområde og kan forsvinde, når der zoomes meget tæt ind. Et tomt kort udelukker ikke oversvømmelse. Kun til orientering."
+        },
+        "de": {
+          "Opasnost od poplava: mala vjerojatnost": "Hochwassergefahr: niedrige Wahrscheinlichkeit",
+          "Poplave": "Hochwasser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hochwassergefahrenkarten 2019 von Hrvatske vode: Ausdehnung und Wassertiefe für drei Szenarien: hohe Wahrscheinlichkeit (Wiederkehrintervall etwa 25 Jahre), mittlere (etwa 100 Jahre) und niedrige (etwa 1000 Jahre, einschließlich Deich- und Dammbruch). Die Karte wird nur in einem bestimmten Maßstabsbereich gezeichnet und kann bei starkem Hineinzoomen verschwinden. Eine leere Karte schließt Hochwasser nicht aus. Nur zur Information."
+        },
+        "de-CH": {
+          "Opasnost od poplava: mala vjerojatnost": "Hochwassergefahr: niedrige Wahrscheinlichkeit",
+          "Poplave": "Hochwasser",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hochwassergefahrenkarten 2019 von Hrvatske vode: Ausdehnung und Wassertiefe für drei Szenarien: hohe Wahrscheinlichkeit (Wiederkehrintervall etwa 25 Jahre), mittlere (etwa 100 Jahre) und niedrige (etwa 1000 Jahre, einschliesslich Deich- und Dammbruch). Die Karte wird nur in einem bestimmten Massstabsbereich gezeichnet und kann bei starkem Hineinzoomen verschwinden. Eine leere Karte schliesst Hochwasser nicht aus. Nur zur Information."
+        },
+        "el": {
+          "Opasnost od poplava: mala vjerojatnost": "Επικινδυνότητα πλημμύρας: χαμηλή πιθανότητα",
+          "Poplave": "Πλημμύρες",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Χάρτες επικινδυνότητας πλημμύρας 2019 της Hrvatske vode: έκταση και βάθος νερού για τρία σενάρια: υψηλή πιθανότητα (περίοδος επαναφοράς περίπου 25 ετών), μέση (περίπου 100 ετών) και χαμηλή (περίπου 1.000 ετών, συμπεριλαμβανομένης της αστοχίας αναχωμάτων και φραγμάτων). Ο χάρτης σχεδιάζεται μόνο σε ορισμένο εύρος κλιμάκων και μπορεί να εξαφανιστεί σε πολύ μεγάλη μεγέθυνση. Ένας κενός χάρτης δεν αποκλείει την πλημμύρα. Μόνο για ενημέρωση."
+        },
+        "en": {
+          "Opasnost od poplava: mala vjerojatnost": "Flood hazard: low probability",
+          "Poplave": "Flooding",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode's 2019 flood hazard maps: flood extent and water depth for three scenarios: high probability (a return period of about 25 years), medium (about 100 years) and low (about 1,000 years, including levee and dam failure). The map is drawn only within a set scale range and can disappear when zoomed in very close. A blank map does not rule out flooding. For information only."
+        },
+        "es": {
+          "Opasnost od poplava: mala vjerojatnost": "Peligrosidad de inundación: probabilidad baja",
+          "Poplave": "Inundaciones",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de peligrosidad de inundación 2019 de Hrvatske vode: extensión y calado para tres escenarios: probabilidad alta (periodo de retorno de unos 25 años), media (unos 100 años) y baja (unos 1000 años, incluida la rotura de diques y presas). El mapa solo se dibuja dentro de un intervalo de escalas y puede desaparecer al acercarse mucho. Un mapa vacío no descarta inundaciones. Solo a título informativo."
+        },
+        "es-419": {
+          "Opasnost od poplava: mala vjerojatnost": "Peligrosidad de inundación: probabilidad baja",
+          "Poplave": "Inundaciones",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de peligrosidad de inundación 2019 de Hrvatske vode: extensión y profundidad del agua para tres escenarios: probabilidad alta (período de retorno de unos 25 años), media (unos 100 años) y baja (unos 1000 años, incluida la ruptura de diques y represas). El mapa solo se dibuja dentro de un rango de escalas y puede desaparecer al acercarse mucho. Un mapa vacío no descarta inundaciones. Solo a título informativo."
+        },
+        "et": {
+          "Opasnost od poplava: mala vjerojatnost": "Üleujutusoht: väike tõenäosus",
+          "Poplave": "Üleujutused",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode üleujutusohu kaardid 2019: üleujutuse ulatus ja veesügavus kolme stsenaariumi korral: suur tõenäosus (kordumisaeg umbes 25 aastat), keskmine (umbes 100 aastat) ja väike (umbes 1000 aastat, sh tammide ja paisude purunemine). Kaarti joonistatakse ainult kindlas mõõtkavavahemikus ja see võib väga lähedale suurendades kaduda. Tühi kaart ei välista üleujutust. Ainult teadmiseks."
+        },
+        "fi": {
+          "Opasnost od poplava: mala vjerojatnost": "Tulvavaara: pieni todennäköisyys",
+          "Poplave": "Tulvat",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske voden tulvavaarakartat 2019: tulvan laajuus ja vesisyvyys kolmessa skenaariossa: suuri todennäköisyys (toistuvuus noin 25 vuotta), keskisuuri (noin 100 vuotta) ja pieni (noin 1 000 vuotta, mukaan lukien penkereiden ja patojen murtuminen). Kartta piirretään vain tietyllä mittakaava-alueella, ja se voi kadota, kun karttaa lähennetään paljon. Tyhjä kartta ei sulje pois tulvaa. Vain tiedoksi."
+        },
+        "fr": {
+          "Opasnost od poplava: mala vjerojatnost": "Aléa inondation : faible probabilité",
+          "Poplave": "Inondations",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Cartes 2019 de l'aléa inondation de Hrvatske vode : étendue et hauteur d'eau pour trois scénarios : forte probabilité (période de retour d'environ 25 ans), moyenne (environ 100 ans) et faible (environ 1 000 ans, y compris la rupture de digues et de barrages). La carte n'est dessinée que dans une plage d'échelles donnée et peut disparaître avec un zoom très rapproché. Une carte vide n'exclut pas l'inondation. À titre indicatif."
+        },
+        "hr": {
+          "Opasnost od poplava: mala vjerojatnost": "Opasnost od poplava: mala vjerojatnost",
+          "Poplave": "Poplave",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera."
+        },
+        "hu": {
+          "Opasnost od poplava: mala vjerojatnost": "Árvízveszély: kis valószínűség",
+          "Poplave": "Árvíz",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "A Hrvatske vode 2019-es árvízveszély-térképei: az elöntés kiterjedése és a vízmélység három forgatókönyvre: nagy valószínűség (kb. 25 éves visszatérési idő), közepes (kb. 100 év) és kis valószínűség (kb. 1000 év, gát- és töltésszakadással együtt). A térkép csak egy meghatározott méretarány-tartományban jelenik meg, és erős nagyításnál eltűnhet. Az üres térkép nem zárja ki az árvizet. Csak tájékoztató jellegű."
+        },
+        "is": {
+          "Opasnost od poplava: mala vjerojatnost": "Flóðahætta: litlar líkur",
+          "Poplave": "Flóð",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Flóðahættukort Hrvatske vode frá 2019: útbreiðsla og vatnsdýpi fyrir þrjár sviðsmyndir: miklar líkur (endurkomutími um 25 ár), miðlungslíkur (um 100 ár) og litlar líkur (um 1.000 ár, að meðtöldu rofi varnargarða og stíflna). Kortið er aðeins teiknað innan ákveðins kvarðabils og getur horfið þegar þysjað er mjög nærri. Autt kort útilokar ekki flóð. Aðeins til upplýsingar."
+        },
+        "it": {
+          "Opasnost od poplava: mala vjerojatnost": "Pericolosità di alluvione: bassa probabilità",
+          "Poplave": "Alluvioni",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mappe di pericolosità da alluvione 2019 di Hrvatske vode: estensione e profondità dell'acqua per tre scenari: alta probabilità (tempo di ritorno di circa 25 anni), media (circa 100 anni) e bassa (circa 1000 anni, compreso il cedimento di argini e dighe). La mappa viene disegnata solo entro un certo intervallo di scale e può scomparire con uno zoom molto ravvicinato. Una mappa vuota non esclude le alluvioni. Solo a scopo informativo."
+        },
+        "ja": {
+          "Opasnost od poplava: mala vjerojatnost": "洪水ハザード：低確率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodeの2019年洪水ハザードマップ。3つのシナリオの浸水範囲と浸水深を示します：高確率（再現期間約25年）、中確率（約100年）、低確率（約1,000年、堤防やダムの決壊を含む）。この地図は一定の縮尺範囲でのみ描画され、大きく拡大すると表示されなくなることがあります。何も表示されなくても浸水の可能性は否定されません。参考情報です。"
+        },
+        "lt": {
+          "Opasnost od poplava: mala vjerojatnost": "Potvynių grėsmė: maža tikimybė",
+          "Poplave": "Potvyniai",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 m. potvynių grėsmės žemėlapiai: užliejamo ploto ribos ir vandens gylis trims scenarijams: didelė tikimybė (pasikartojimo laikotarpis apie 25 metus), vidutinė (apie 100 metų) ir maža (apie 1000 metų, įskaitant pylimų ir užtvankų pratrūkimą). Žemėlapis piešiamas tik tam tikrame mastelių intervale ir labai priartinus gali išnykti. Tuščias žemėlapis neatmeta potvynio galimybės. Tik informacijai."
+        },
+        "lv": {
+          "Opasnost od poplava: mala vjerojatnost": "Plūdu apdraudējums: zema varbūtība",
+          "Poplave": "Plūdi",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019. gada plūdu apdraudējuma kartes: applūšanas apjoms un ūdens dziļums trim scenārijiem: augsta varbūtība (atkārtošanās periods aptuveni 25 gadi), vidēja (aptuveni 100 gadi) un zema (aptuveni 1000 gadi, ieskaitot dambju un aizsprostu pārrāvumus). Karte tiek zīmēta tikai noteiktā mērogu diapazonā un var pazust, ja to ļoti pietuvina. Tukša karte neizslēdz plūdus. Tikai informācijai."
+        },
+        "nb": {
+          "Opasnost od poplava: mala vjerojatnost": "Flomfare: lav sannsynlighet",
+          "Poplave": "Flom",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Flomfarekart 2019 fra Hrvatske vode: utbredelse og vanndybde for tre scenarioer: høy sannsynlighet (gjentaksintervall på om lag 25 år), middels (om lag 100 år) og lav (om lag 1000 år, inkludert brudd i diker og dammer). Kartet tegnes bare innenfor et bestemt målestokkområde og kan forsvinne når du zoomer langt inn. Et tomt kart utelukker ikke flom. Kun til orientering."
+        },
+        "nl": {
+          "Opasnost od poplava: mala vjerojatnost": "Overstromingsgevaar: kleine kans",
+          "Poplave": "Overstromingen",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Overstromingsgevaarkaarten 2019 van Hrvatske vode: omvang en waterdiepte voor drie scenario's: grote kans (herhalingstijd van ongeveer 25 jaar), middelgrote kans (ongeveer 100 jaar) en kleine kans (ongeveer 1000 jaar, inclusief het bezwijken van dijken en dammen). De kaart wordt alleen binnen een bepaald schaalbereik getekend en kan verdwijnen bij ver inzoomen. Een lege kaart sluit een overstroming niet uit. Alleen ter informatie."
+        },
+        "pl": {
+          "Opasnost od poplava: mala vjerojatnost": "Zagrożenie powodziowe: niskie prawdopodobieństwo",
+          "Poplave": "Powodzie",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy zagrożenia powodziowego 2019 Hrvatske vode: zasięg i głębokość wody dla trzech scenariuszy: wysokie prawdopodobieństwo (okres powtarzalności około 25 lat), średnie (około 100 lat) i niskie (około 1000 lat, w tym przerwanie wałów i zapór). Mapa jest rysowana tylko w określonym zakresie skal i może zniknąć przy bardzo dużym przybliżeniu. Pusta mapa nie wyklucza powodzi. Wyłącznie informacyjnie."
+        },
+        "pt-BR": {
+          "Opasnost od poplava: mala vjerojatnost": "Perigo de inundação: probabilidade baixa",
+          "Poplave": "Inundações",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapas de perigo de inundação de 2019 da Hrvatske vode: extensão e profundidade da água para três cenários: probabilidade alta (período de retorno de cerca de 25 anos), média (cerca de 100 anos) e baixa (cerca de 1.000 anos, incluindo rompimento de diques e barragens). O mapa só é desenhado em uma determinada faixa de escalas e pode desaparecer com zoom muito próximo. Um mapa vazio não descarta inundações. Apenas para informação."
+        },
+        "pt-PT": {
+          "Opasnost od poplava: mala vjerojatnost": "Perigo de inundação: probabilidade baixa",
+          "Poplave": "Cheias",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Cartas de perigosidade de inundação de 2019 da Hrvatske vode: extensão e profundidade da água para três cenários: probabilidade elevada (período de retorno de cerca de 25 anos), média (cerca de 100 anos) e baixa (cerca de 1000 anos, incluindo rotura de diques e barragens). O mapa só é desenhado num determinado intervalo de escalas e pode desaparecer com um zoom muito próximo. Um mapa vazio não exclui inundações. Apenas para informação."
+        },
+        "ro": {
+          "Opasnost od poplava: mala vjerojatnost": "Hazard la inundații: probabilitate scăzută",
+          "Poplave": "Inundații",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hărțile de hazard la inundații 2019 ale Hrvatske vode: extinderea și adâncimea apei pentru trei scenarii: probabilitate ridicată (perioadă de revenire de circa 25 de ani), medie (circa 100 de ani) și scăzută (circa 1.000 de ani, inclusiv ruperea digurilor și a barajelor). Harta este desenată doar într-un anumit interval de scări și poate dispărea la o mărire foarte mare. O hartă goală nu exclude inundațiile. Doar cu titlu informativ."
+        },
+        "sk": {
+          "Opasnost od poplava: mala vjerojatnost": "Povodňové ohrozenie: nízka pravdepodobnosť",
+          "Poplave": "Povodne",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Mapy povodňového ohrozenia 2019 od Hrvatske vode: rozsah a hĺbka vody pre tri scenáre: vysoká pravdepodobnosť (doba opakovania asi 25 rokov), stredná (asi 100 rokov) a nízka (asi 1000 rokov, vrátane pretrhnutia hrádzí a priehrad). Mapa sa vykresľuje len v určitom rozsahu mierok a pri veľkom priblížení môže zmiznúť. Prázdna mapa povodeň nevylučuje. Len na informáciu."
+        },
+        "sl": {
+          "Opasnost od poplava: mala vjerojatnost": "Poplavna nevarnost: majhna verjetnost",
+          "Poplave": "Poplave",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Karte poplavne nevarnosti 2019 Hrvatskih voda: obseg in globina vode za tri scenarije: velika verjetnost (povratna doba približno 25 let), srednja (približno 100 let) in majhna (približno 1000 let, vključno s porušitvijo nasipov in pregrad). Karta se izriše le v določenem razponu meril in lahko ob močni povečavi izgine. Prazna karta poplave ne izključuje. Samo informativno."
+        },
+        "sv": {
+          "Opasnost od poplava: mala vjerojatnost": "Översvämningsfara: låg sannolikhet",
+          "Poplave": "Översvämningar",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vodes hotkartor för översvämning 2019: utbredning och vattendjup för tre scenarier: hög sannolikhet (återkomsttid omkring 25 år), medelhög (omkring 100 år) och låg (omkring 1 000 år, inklusive brott på vallar och dammar). Kartan ritas bara inom ett visst skalintervall och kan försvinna när man zoomar in mycket nära. En tom karta utesluter inte översvämning. Endast som information."
+        },
+        "zh-HK": {
+          "Opasnost od poplava: mala vjerojatnost": "洪水危險：低概率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 年洪水危險地圖：三種情景下的淹浸範圍及水深：高概率（重現期約 25 年）、中概率（約 100 年）及低概率（約 1,000 年，包括堤圍及水壩崩潰）。地圖只在指定比例尺範圍內顯示，放得很大時可能消失。地圖空白並不代表沒有水浸風險。僅供參考。"
+        },
+        "zh-Hant": {
+          "Opasnost od poplava: mala vjerojatnost": "洪水危險：低機率",
+          "Poplave": "洪水",
+          "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 年淹水潛勢圖：三種情境下的淹水範圍與水深：高機率（重現期約 25 年）、中機率（約 100 年）與低機率（約 1,000 年，包括堤防與水壩潰決）。地圖只在特定比例尺範圍內顯示，放大很多時可能消失。地圖空白不代表不會淹水。僅供參考。"
+        }
+      }
     }
   ],
   "withheld": [
@@ -930,6 +1455,14 @@
       "preset": "jp_assess",
       "add": [
         "jp_shinrin_mesh"
+      ]
+    },
+    {
+      "preset": "hr_vode",
+      "add": [
+        "hr_poplave_2019_velika",
+        "hr_poplave_2019_srednja",
+        "hr_poplave_2019_mala"
       ]
     }
   ],
