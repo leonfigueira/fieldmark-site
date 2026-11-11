@@ -1395,6 +1395,17 @@
         "pt-BR": "O registro Heritage at Risk da Historic England, 2026: o patrimônio designado considerado em risco por abandono, degradação ou empreendimentos. 4.989 sítios; cada um tem link para sua entrada no registro.",
         "pt-PT": "O registo Heritage at Risk da Historic England, 2026: o património designado considerado em risco por abandono, degradação ou desenvolvimento. 4.989 sítios; cada um liga à sua entrada no registo."
       }
+    },
+    {
+      "id": "ie_smr",
+      "explainer": {
+        "en": "Ireland's Sites and Monuments Record — 151,308 recorded monuments as points, with their class and townland. The SMR is the National Monuments Service's basic listing: statutory protection follows from the Record of Monuments and Places, the Register of Historic Monuments, State ownership or guardianship, or a preservation order. Check the SMR Zones and RMP layers alongside this one.",
+        "es": "Sites and Monuments Record (SMR) de Irlanda: 151.308 monumentos registrados como puntos, con su clase y su townland. El SMR es el listado básico del National Monuments Service: la protección legal deriva del Record of Monuments and Places, del Register of Historic Monuments, de la titularidad o tutela del Estado, o de una preservation order. Consulte también las capas SMR Zones y RMP.",
+        "fr": "Le Sites and Monuments Record d'Irlande : 151 308 monuments recensés en points, avec leur classe et leur townland. Le SMR est la liste de base du National Monuments Service : la protection légale découle du Record of Monuments and Places, du Register of Historic Monuments, de la propriété ou tutelle de l'État, ou d'un arrêté de préservation. Consultez aussi les couches SMR Zones et RMP.",
+        "nl": "Het Sites and Monuments Record van Ierland: 151.308 geregistreerde monumenten als punten, met hun klasse en townland. Het SMR is de basislijst van de National Monuments Service: wettelijke bescherming volgt uit het Record of Monuments and Places, het Register of Historic Monuments, staatseigendom of -beheer, of een preservation order. Raadpleeg naast deze laag ook de lagen SMR Zones en RMP.",
+        "pt-BR": "Sites and Monuments Record (SMR) da Irlanda: 151.308 monumentos registrados como pontos, com a respectiva classe e townland. O SMR é a listagem básica do National Monuments Service: a proteção legal decorre do Record of Monuments and Places, do Register of Historic Monuments, da propriedade ou tutela do Estado, ou de uma preservation order. Consulte também as camadas SMR Zones e RMP.",
+        "pt-PT": "Sites and Monuments Record (SMR) da Irlanda: 151.308 monumentos registados como pontos, com a respetiva classe e townland. O SMR é a listagem básica do National Monuments Service: a proteção legal decorre do Record of Monuments and Places, do Register of Historic Monuments, da propriedade ou tutela do Estado, ou de uma preservation order. Consulte também as camadas SMR Zones e RMP."
+      }
     }
   ],
   "offlineEstimates": {
@@ -1704,6 +1715,13 @@
       "id": "fc_nfi",
       "type": "arcgis",
       "base": "https://services2.arcgis.com/mHXjwgl3OARRqqD4/arcgis/rest/services/National_Forest_Inventory_England_2025/FeatureServer",
+      "layer": 0,
+      "sameData": false
+    },
+    {
+      "id": "ie_smr",
+      "type": "arcgis",
+      "base": "https://services-eu1.arcgis.com/HyjXgkV6KGMSF3jt/arcgis/rest/services/SMROpenData/FeatureServer",
       "layer": 0,
       "sameData": false
     }
