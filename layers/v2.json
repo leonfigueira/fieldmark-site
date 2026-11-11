@@ -1383,6 +1383,18 @@
         "zh-HK": "林野廳的20米森林資源網格（森林類型、樹種、林齡、樹冠高度）。此為參考資料，詳情請向都道府縣等查詢。以地圖影像顯示。"
       },
       "guidanceURL": "https://www.geospatial.jp/ckan/dataset/mesh_19"
+    },
+    {
+      "id": "en_har",
+      "title": "Heritage at Risk 2026",
+      "explainer": {
+        "en": "Historic England's Heritage at Risk register, 2026 — the designated heritage judged at risk from neglect, decay or development. 4,989 sites; each links to its register entry.",
+        "es": "El registro Heritage at Risk de Historic England, 2026: el patrimonio designado que se considera en riesgo por abandono, deterioro o desarrollo. 4.989 sitios; cada uno enlaza con su entrada del registro.",
+        "fr": "Le registre Heritage at Risk de Historic England, 2026 : le patrimoine désigné jugé menacé par l'abandon, la dégradation ou l'aménagement. 4 989 sites ; chacun renvoie à son entrée du registre.",
+        "nl": "Het Heritage at Risk-register van Historic England, 2026: het aangewezen erfgoed dat door verwaarlozing, verval of ruimtelijke ontwikkeling als bedreigd wordt beschouwd. 4.989 locaties; elk met een link naar de eigen vermelding in het register.",
+        "pt-BR": "O registro Heritage at Risk da Historic England, 2026: o patrimônio designado considerado em risco por abandono, degradação ou empreendimentos. 4.989 sítios; cada um tem link para sua entrada no registro.",
+        "pt-PT": "O registo Heritage at Risk da Historic England, 2026: o património designado considerado em risco por abandono, degradação ou desenvolvimento. 4.989 sítios; cada um liga à sua entrada no registo."
+      }
     }
   ],
   "offlineEstimates": {
@@ -1680,6 +1692,20 @@
       "endpoint": "https://umweltkarten.lung-mv.de/dienste/gb_boden",
       "typeName": "bfb",
       "sameData": true
+    },
+    {
+      "id": "en_har",
+      "type": "arcgis",
+      "base": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/HAR_2026_OTHR_WGS84/FeatureServer",
+      "layer": 0,
+      "sameData": false
+    },
+    {
+      "id": "fc_nfi",
+      "type": "arcgis",
+      "base": "https://services2.arcgis.com/mHXjwgl3OARRqqD4/arcgis/rest/services/National_Forest_Inventory_England_2025/FeatureServer",
+      "layer": 0,
+      "sameData": false
     }
   ],
   "publisherDates": [
@@ -1812,5 +1838,39 @@
       "Földtan, földtani veszélyek és erdők": "Геология и геоложки опасности"
     }
   },
-  "minAppVersion": "2.6.1"
+  "minAppVersion": "2.6.1",
+  "layerTitleTranslations": {
+    "en_har": {
+      "sourceKey": "Heritage at Risk 2026",
+      "values": {
+        "bg": "Културно наследство в риск 2026",
+        "cs": "Ohrožené dědictví 2026",
+        "da": "Kulturarv i fare 2026",
+        "de": "Gefährdetes Kulturerbe (Heritage at Risk 2026)",
+        "el": "Πολιτιστική κληρονομιά σε κίνδυνο 2026",
+        "es": "Patrimonio en peligro 2026",
+        "et": "Ohustatud pärand 2026",
+        "fi": "Uhanalainen kulttuuriperintö 2026 (Heritage at Risk)",
+        "fr": "Patrimoine menacé 2026",
+        "hr": "Ugrožena baština 2026.",
+        "hu": "Veszélyeztetett örökség 2026",
+        "is": "Minjar í hættu 2026",
+        "it": "Heritage at Risk 2026",
+        "ja": "Heritage at Risk 2026（危機にある文化遺産）",
+        "lt": "Nykstantis paveldas 2026",
+        "lv": "Apdraudētais kultūras mantojums 2026",
+        "nb": "Heritage at Risk 2026 (truet kulturarv)",
+        "nl": "Heritage at Risk 2026 (bedreigd erfgoed)",
+        "pl": "Heritage at Risk 2026 (zagrożone dziedzictwo)",
+        "pt-BR": "Patrimônio em risco 2026",
+        "pt-PT": "Património em risco 2026",
+        "ro": "Patrimoniu în pericol 2026",
+        "sk": "Ohrozené dedičstvo 2026",
+        "sl": "Ogrožena dediščina 2026",
+        "sv": "Heritage at Risk 2026 (hotat kulturarv)",
+        "zh-HK": "Heritage at Risk 2026（瀕危文物）",
+        "zh-Hant": "Heritage at Risk 2026（瀕危文物）"
+      }
+    }
+  }
 }
