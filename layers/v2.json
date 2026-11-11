@@ -1183,6 +1183,309 @@
           "Karte opasnosti od poplava 2019. Hrvatskih voda: obuhvat i dubina poplave za tri scenarija: velika vjerojatnost pojavljivanja (povratno razdoblje oko 25 godina), srednja (oko 100 godina) i mala (oko 1000 godina, uključujući rušenje nasipa i brana). Karta se prikazuje samo u određenom rasponu mjerila i može nestati pri velikom približavanju. Prazna karta ne isključuje poplavu. Informativnog karaktera.": "Hrvatske vode 2019 年淹水潛勢圖：三種情境下的淹水範圍與水深：高機率（重現期約 25 年）、中機率（約 100 年）與低機率（約 1,000 年，包括堤防與水壩潰決）。地圖只在特定比例尺範圍內顯示，放大很多時可能消失。地圖空白不代表不會淹水。僅供參考。"
         }
       }
+    },
+    {
+      "id": "en_consarea_he",
+      "title": "Conservation Areas (Historic England)",
+      "group": "Designations",
+      "subgroup": "Historic",
+      "nation": "en",
+      "source": {
+        "type": "arcgis",
+        "base": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/arcgis/rest/services/Conservation_Areas/FeatureServer",
+        "layer": 0,
+        "heavy": false
+      },
+      "colorHex": "#9E591F",
+      "fillOpacity": 0.12,
+      "minZoom": 9,
+      "titleFields": [
+        "NAME"
+      ],
+      "subtitleFields": [
+        "LPA"
+      ],
+      "explainer": "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.",
+      "attribution": "© Historic England and Local Planning Authorities 2026. Contains Ordnance Survey data © Crown copyright and database right 2026, OGL v3.0",
+      "inBufferSearch": true,
+      "guidanceURL": "https://www.gov.uk/guidance/conservation-areas",
+      "translations": {
+        "bg": {
+          "Conservation Areas (Historic England)": "Защитени зони на културното наследство (Historic England)",
+          "Historic": "Исторически"
+        },
+        "cs": {
+          "Conservation Areas (Historic England)": "Památkové zóny (Historic England)",
+          "Historic": "Památky"
+        },
+        "da": {
+          "Conservation Areas (Historic England)": "Bevaringsområder (Historic England)",
+          "Historic": "Historisk",
+          "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.": "Bevaringsområder: hvor en myndighed styrer ændringer for at bevare en særlig arkitektonisk eller historisk karakter. Nedrivning, visse indgreb i træer og byggeri, der ellers er tilladt uden ansøgning, er alle begrænset inden for et sådant område. Historic Englands egen landsdækkende kopi (8.749 områder), tilføjet som reserve, mens den britiske regerings plandatatjeneste er nede."
+        },
+        "de": {
+          "Conservation Areas (Historic England)": "Erhaltungsgebiete (Conservation Areas, Historic England)",
+          "Historic": "Historisch"
+        },
+        "de-CH": {
+          "Conservation Areas (Historic England)": "Erhaltungsgebiete (Conservation Areas, Historic England)",
+          "Historic": "Historisch"
+        },
+        "el": {
+          "Conservation Areas (Historic England)": "Περιοχές διατήρησης (Historic England)",
+          "Historic": "Ιστορικό"
+        },
+        "es": {
+          "Conservation Areas (Historic England)": "Conservation Areas (zonas de protección del patrimonio, Historic England)",
+          "Historic": "Patrimonio histórico",
+          "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.": "Conservation areas: donde la autoridad gestiona los cambios para preservar un carácter arquitectónico o histórico especial. Dentro de una se restringen las demoliciones, ciertos trabajos en árboles y el desarrollo permitido. Copia nacional de Historic England (8.749 áreas), añadida como respaldo mientras el servicio de datos de planificación del Gobierno británico está fuera de servicio."
+        },
+        "es-419": {
+          "Conservation Areas (Historic England)": "Conservation Areas (zonas de protección del patrimonio, Historic England)",
+          "Historic": "Patrimonio histórico",
+          "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.": "Conservation areas: donde la autoridad gestiona los cambios para preservar un carácter arquitectónico o histórico especial. Dentro de una se restringen las demoliciones, ciertos trabajos en árboles y el desarrollo permitido. Copia nacional de Historic England (8,749 áreas), añadida como respaldo mientras el servicio de datos de planificación del Gobierno británico está fuera de servicio."
+        },
+        "et": {
+          "Conservation Areas (Historic England)": "Miljööväärtuslikud alad (Historic England)",
+          "Historic": "Ajalooline"
+        },
+        "fi": {
+          "Conservation Areas (Historic England)": "Conservation Areas (rakennetun ympäristön suojelualueet, Historic England)",
+          "Historic": "Historialliset"
+        },
+        "fr": {
+          "Conservation Areas (Historic England)": "Secteurs de protection du patrimoine (Historic England)",
+          "Historic": "Patrimoine historique",
+          "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.": "Conservation areas : où une autorité encadre les changements pour préserver un caractère architectural ou historique particulier. Démolitions, certains travaux sur les arbres et l'aménagement dispensé y sont restreints. Copie nationale de Historic England (8 749 zones), ajoutée en secours pendant la panne du service de données d'urbanisme du gouvernement britannique."
+        },
+        "hr": {
+          "Conservation Areas (Historic England)": "Zaštićene kulturno-povijesne cjeline (Historic England)",
+          "Historic": "Povijesno"
+        },
+        "hu": {
+          "Conservation Areas (Historic England)": "Műemléki jelentőségű területek (Historic England)",
+          "Historic": "Történeti"
+        },
+        "is": {
+          "Conservation Areas (Historic England)": "Verndarsvæði byggðar (Historic England)",
+          "Historic": "Sögulegt"
+        },
+        "it": {
+          "Conservation Areas (Historic England)": "Conservation Areas (Historic England)",
+          "Historic": "Storico"
+        },
+        "ja": {
+          "Conservation Areas (Historic England)": "保存地区 (Historic England)",
+          "Historic": "歴史的"
+        },
+        "lt": {
+          "Conservation Areas (Historic England)": "Saugomos urbanistinės teritorijos (Historic England)",
+          "Historic": "Istorinis"
+        },
+        "lv": {
+          "Conservation Areas (Historic England)": "Aizsargājamās apbūves teritorijas (Historic England)",
+          "Historic": "Vēsturiskais mantojums"
+        },
+        "nb": {
+          "Conservation Areas (Historic England)": "Bevaringsområder (Historic England)",
+          "Historic": "Historisk"
+        },
+        "nl": {
+          "Conservation Areas (Historic England)": "Conservation Areas (beschermde stads- en dorpsgezichten, Historic England)",
+          "Historic": "Historisch erfgoed",
+          "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.": "Conservation areas: gebieden waar het bevoegd gezag veranderingen reguleert om een bijzonder architectonisch of historisch karakter te behouden. Voor sloop, bepaalde werkzaamheden aan bomen en vergunningsvrij bouwen gelden er beperkingen. De eigen landelijke kopie van Historic England (8.749 gebieden), toegevoegd als reserve zolang de planningsdatadienst van de Britse overheid buiten gebruik is."
+        },
+        "pl": {
+          "Conservation Areas (Historic England)": "Conservation Areas (obszary ochrony konserwatorskiej, Historic England)",
+          "Historic": "Zabytki"
+        },
+        "pt-BR": {
+          "Conservation Areas (Historic England)": "Conservation Areas (zonas de proteção do patrimônio, Historic England)",
+          "Historic": "Patrimônio histórico",
+          "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.": "Conservation areas: onde a autoridade gerencia as alterações para preservar um caráter arquitetônico ou histórico especial. Dentro delas, demolições, certos trabalhos em árvores e obras permitidas sem licença ficam restritos. Cópia nacional da Historic England (8.749 áreas), adicionada como alternativa enquanto o serviço de dados de planejamento do governo britânico está fora do ar."
+        },
+        "pt-PT": {
+          "Conservation Areas (Historic England)": "Conservation Areas (zonas de proteção do património, Historic England)",
+          "Historic": "Património histórico",
+          "Conservation areas: where an authority manages change to preserve special architectural or historic character. Demolition, some works to trees, and permitted development are all restricted inside one. Historic England's own national copy (8,749 areas), added as a backup while the government's planning data service is down.": "Conservation areas: onde a autoridade gere as alterações para preservar um caráter arquitetónico ou histórico especial. Dentro de uma restringem-se as demolições, certos trabalhos em árvores e o desenvolvimento permitido. Cópia nacional da Historic England (8.749 áreas), adicionada como alternativa enquanto o serviço de dados de planeamento do Governo britânico está indisponível."
+        },
+        "ro": {
+          "Conservation Areas (Historic England)": "Zone construite protejate (Historic England)",
+          "Historic": "Istoric"
+        },
+        "sk": {
+          "Conservation Areas (Historic England)": "Pamiatkové zóny (Historic England)",
+          "Historic": "Pamiatky"
+        },
+        "sl": {
+          "Conservation Areas (Historic England)": "Varstvena območja kulturne dediščine (Historic England)",
+          "Historic": "Zgodovinsko"
+        },
+        "sv": {
+          "Conservation Areas (Historic England)": "Conservation Areas (bevarandeområden, Historic England)",
+          "Historic": "Historiskt"
+        },
+        "zh-HK": {
+          "Conservation Areas (Historic England)": "保護區（Conservation Areas，Historic England）",
+          "Historic": "歷史"
+        },
+        "zh-Hant": {
+          "Conservation Areas (Historic England)": "保護區（Conservation Areas，Historic England）",
+          "Historic": "歷史"
+        }
+      }
+    },
+    {
+      "id": "en_lpa_ons",
+      "title": "Planning Authority Boundaries (ONS)",
+      "group": "Designations",
+      "subgroup": "Planning",
+      "nation": "en",
+      "source": {
+        "type": "arcgis",
+        "base": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LPA_JAN_2026_UK_BFC_V2/FeatureServer",
+        "layer": 0,
+        "heavy": false,
+        "filter": "LPA26CD LIKE 'E%'"
+      },
+      "colorHex": "#737380",
+      "fillOpacity": 0.03,
+      "minZoom": 6,
+      "titleFields": [
+        "LPA26NM"
+      ],
+      "subtitleFields": [
+        "LPA26CD"
+      ],
+      "explainer": "The 312 local planning authority areas: who decides an application, whose local plan and whose Local Nature Recovery Strategy applies. The first question of any planning enquiry, answered by eye. From the Office for National Statistics, January 2026, added as a backup while the government's planning data service is down.",
+      "attribution": "Source: Office for National Statistics licensed under the Open Government Licence v3.0. Contains OS data © Crown copyright and database right 2026",
+      "inBufferSearch": true,
+      "oidField": "FID",
+      "guidanceURL": "https://www.gov.uk/find-local-council",
+      "translations": {
+        "bg": {
+          "Planning Authority Boundaries (ONS)": "Граници на органите по устройство на територията (ONS)",
+          "Planning": "Устройствено планиране"
+        },
+        "cs": {
+          "Planning Authority Boundaries (ONS)": "Hranice plánovacích orgánů (ONS)",
+          "Planning": "Územní plánování"
+        },
+        "da": {
+          "Planning Authority Boundaries (ONS)": "Planmyndighedsgrænser (ONS)",
+          "Planning": "Planlægning"
+        },
+        "de": {
+          "Planning Authority Boundaries (ONS)": "Grenzen der Planungsbehörden (ONS)",
+          "Planning": "Planung"
+        },
+        "de-CH": {
+          "Planning Authority Boundaries (ONS)": "Grenzen der Planungsbehörden (ONS)",
+          "Planning": "Planung"
+        },
+        "el": {
+          "Planning Authority Boundaries (ONS)": "Όρια πολεοδομικών αρχών (ONS)",
+          "Planning": "Πολεοδομία"
+        },
+        "es": {
+          "Planning Authority Boundaries (ONS)": "Límites de las autoridades de urbanismo (ONS)",
+          "Planning": "Urbanismo",
+          "The 312 local planning authority areas: who decides an application, whose local plan and whose Local Nature Recovery Strategy applies. The first question of any planning enquiry, answered by eye. From the Office for National Statistics, January 2026, added as a backup while the government's planning data service is down.": "Las 312 áreas de autoridad de planificación local: quién decide una solicitud, qué plan local y qué estrategia local de recuperación de la naturaleza se aplican. La primera pregunta de cualquier consulta urbanística, respondida a simple vista. Fuente: Office for National Statistics, enero de 2026. Añadida como respaldo mientras el servicio de datos de planificación del Gobierno británico está fuera de servicio."
+        },
+        "es-419": {
+          "Planning Authority Boundaries (ONS)": "Límites de las autoridades de urbanismo (ONS)",
+          "Planning": "Urbanismo",
+          "The 312 local planning authority areas: who decides an application, whose local plan and whose Local Nature Recovery Strategy applies. The first question of any planning enquiry, answered by eye. From the Office for National Statistics, January 2026, added as a backup while the government's planning data service is down.": "Las 312 áreas de autoridad de planificación local: quién decide una solicitud, qué plan local y qué estrategia local de recuperación de la naturaleza se aplican. La primera pregunta de cualquier consulta urbanística, respondida a simple vista. Fuente: Office for National Statistics, enero de 2026. Añadida como respaldo mientras el servicio de datos de planificación del Gobierno británico está fuera de servicio."
+        },
+        "et": {
+          "Planning Authority Boundaries (ONS)": "Planeerimisasutuste piirid (ONS)",
+          "Planning": "Planeerimine"
+        },
+        "fi": {
+          "Planning Authority Boundaries (ONS)": "Kaavoitusviranomaisten rajat (ONS)",
+          "Planning": "Kaavoitus"
+        },
+        "fr": {
+          "Planning Authority Boundaries (ONS)": "Limites des autorités d’urbanisme (ONS)",
+          "Planning": "Urbanisme",
+          "The 312 local planning authority areas: who decides an application, whose local plan and whose Local Nature Recovery Strategy applies. The first question of any planning enquiry, answered by eye. From the Office for National Statistics, January 2026, added as a backup while the government's planning data service is down.": "Les 312 territoires d'autorités d'urbanisme locales : qui décide d'une demande, quel plan local et quelle Local Nature Recovery Strategy s'appliquent. La première question de toute recherche d'urbanisme, lisible d'un coup d'œil. Source : Office for National Statistics, janvier 2026. Ajoutée en secours pendant la panne du service de données d'urbanisme du gouvernement britannique."
+        },
+        "hr": {
+          "Planning Authority Boundaries (ONS)": "Granice nadležnih tijela za prostorno planiranje (ONS)",
+          "Planning": "Prostorno planiranje"
+        },
+        "hu": {
+          "Planning Authority Boundaries (ONS)": "Tervezési hatóságok határai (ONS)",
+          "Planning": "Tervezés"
+        },
+        "is": {
+          "Planning Authority Boundaries (ONS)": "Mörk skipulagsyfirvalda (ONS)",
+          "Planning": "Skipulag"
+        },
+        "it": {
+          "Planning Authority Boundaries (ONS)": "Confini delle autorità di pianificazione (ONS)",
+          "Planning": "Pianificazione"
+        },
+        "ja": {
+          "Planning Authority Boundaries (ONS)": "計画当局の境界 (ONS)",
+          "Planning": "都市計画"
+        },
+        "lt": {
+          "Planning Authority Boundaries (ONS)": "Planavimo institucijų ribos (ONS)",
+          "Planning": "Teritorijų planavimas"
+        },
+        "lv": {
+          "Planning Authority Boundaries (ONS)": "Plānošanas iestāžu robežas (ONS)",
+          "Planning": "Teritorijas plānošana"
+        },
+        "nb": {
+          "Planning Authority Boundaries (ONS)": "Grenser for planmyndigheter (ONS)",
+          "Planning": "Arealplanlegging"
+        },
+        "nl": {
+          "Planning Authority Boundaries (ONS)": "Grenzen van planningsautoriteiten (ONS)",
+          "Planning": "Ruimtelijke ordening",
+          "The 312 local planning authority areas: who decides an application, whose local plan and whose Local Nature Recovery Strategy applies. The first question of any planning enquiry, answered by eye. From the Office for National Statistics, January 2026, added as a backup while the government's planning data service is down.": "De 312 gebieden van de lokale planologische autoriteiten: wie over een aanvraag beslist, welk lokaal plan en welke Local Nature Recovery Strategy gelden. De eerste vraag bij elke planologische kwestie, in één oogopslag beantwoord. Bron: Office for National Statistics, januari 2026. Toegevoegd als reserve zolang de planningsdatadienst van de Britse overheid buiten gebruik is."
+        },
+        "pl": {
+          "Planning Authority Boundaries (ONS)": "Granice organów planistycznych (ONS)",
+          "Planning": "Planowanie przestrzenne"
+        },
+        "pt-BR": {
+          "Planning Authority Boundaries (ONS)": "Limites das autoridades de planejamento (ONS)",
+          "Planning": "Planejamento",
+          "The 312 local planning authority areas: who decides an application, whose local plan and whose Local Nature Recovery Strategy applies. The first question of any planning enquiry, answered by eye. From the Office for National Statistics, January 2026, added as a backup while the government's planning data service is down.": "As 312 áreas de autoridade de planejamento local: quem decide um pedido, qual plano local e qual estratégia local de recuperação da natureza se aplicam. A primeira pergunta de qualquer consulta urbanística, respondida à primeira vista. Fonte: Office for National Statistics, janeiro de 2026. Adicionada como alternativa enquanto o serviço de dados de planejamento do governo britânico está fora do ar."
+        },
+        "pt-PT": {
+          "Planning Authority Boundaries (ONS)": "Limites das autoridades de planeamento (ONS)",
+          "Planning": "Ordenamento",
+          "The 312 local planning authority areas: who decides an application, whose local plan and whose Local Nature Recovery Strategy applies. The first question of any planning enquiry, answered by eye. From the Office for National Statistics, January 2026, added as a backup while the government's planning data service is down.": "As 312 áreas de autoridade de planeamento local: quem decide um pedido, que plano local e que estratégia local de recuperação da natureza se aplicam. A primeira pergunta de qualquer consulta de licenciamento, respondida à vista. Fonte: Office for National Statistics, janeiro de 2026. Adicionada como alternativa enquanto o serviço de dados de planeamento do Governo britânico está indisponível."
+        },
+        "ro": {
+          "Planning Authority Boundaries (ONS)": "Limitele autorităților de planificare (ONS)",
+          "Planning": "Urbanism"
+        },
+        "sk": {
+          "Planning Authority Boundaries (ONS)": "Hranice orgánov územného plánovania (ONS)",
+          "Planning": "Územné plánovanie"
+        },
+        "sl": {
+          "Planning Authority Boundaries (ONS)": "Meje pristojnih organov za prostorsko načrtovanje (ONS)",
+          "Planning": "Prostorsko načrtovanje"
+        },
+        "sv": {
+          "Planning Authority Boundaries (ONS)": "Gränser för planmyndigheter (ONS)",
+          "Planning": "Planering"
+        },
+        "zh-HK": {
+          "Planning Authority Boundaries (ONS)": "規劃當局界線 (ONS)",
+          "Planning": "規劃"
+        },
+        "zh-Hant": {
+          "Planning Authority Boundaries (ONS)": "規劃當局界線 (ONS)",
+          "Planning": "規劃"
+        }
+      }
     }
   ],
   "withheld": [
@@ -1486,6 +1789,19 @@
         "hr_poplave_2019_velika",
         "hr_poplave_2019_srednja",
         "hr_poplave_2019_mala"
+      ]
+    },
+    {
+      "preset": "heritage",
+      "add": [
+        "en_consarea_he"
+      ]
+    },
+    {
+      "preset": "planning",
+      "add": [
+        "en_consarea_he",
+        "en_lpa_ons"
       ]
     }
   ],
