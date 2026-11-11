@@ -1724,6 +1724,12 @@
       "base": "https://services-eu1.arcgis.com/HyjXgkV6KGMSF3jt/arcgis/rest/services/SMROpenData/FeatureServer",
       "layer": 0,
       "sameData": false
+    },
+    {
+      "id": "ie_radon",
+      "type": "wfs",
+      "endpoint": "https://gis.epa.ie/geoserver/ows",
+      "typeName": "EPA:Radon_TechGuidanceC"
     }
   ],
   "publisherDates": [
