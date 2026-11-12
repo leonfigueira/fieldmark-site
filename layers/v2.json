@@ -1532,7 +1532,10 @@
   ],
   "released": [
     "jp_shika",
-    "jp_shinrin_mesh"
+    "jp_shinrin_mesh",
+    "lv_invazivie_augi",
+    "lv_invazivie_dzivnieki",
+    "lv_juras_biotopi"
   ],
   "patches": [
     {
@@ -2081,7 +2084,9 @@
     },
     "hr": {
       "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Nacionalni upisnik zaštićenih područja prirode, nacionalna ekološka mreža, geološka karta 1:100.000, karta geoloških opasnosti i karta unutarnjih voda navedeni su na popisu, ali se još ne mogu otvoriti: njihove licencije još jasno ne dopuštaju da ih prikazuje aplikacija koja se plaća. Obratili smo se ministarstvu, SZTFH-u i Lechneru, a ovdje će se otključati čim to bude potvrđeno.",
-      "Földtan, földtani veszélyek és erdők": "Geologija i geološke opasnosti"
+      "Földtan, földtani veszélyek és erdők": "Geologija i geološke opasnosti",
+      "Katastar speleoloških objekata, nalazišta fosila dinosaura, UNESCO-ovi geoparkovi, geološka karta 1:300 000 i gospodarske jedinice državnih šuma (posljednje dvije čekaju odgovor izdavača).": "Katastar speleoloških objekata, nalazišta fosila dinosaura, UNESCO-ovi geoparkovi, geološka karta 1:300 000 (čeka odgovor izdavača) i gospodarske jedinice državnih šuma.",
+      "The flood hazard maps and the 1:300,000 geological map are listed but cannot be opened yet: no licence is published for them. We have asked Hrvatske vode and the Croatian Geological Survey, and they unlock here the moment it is confirmed.": "Geološka karta 1:300 000 navedena je, ali se još ne može otvoriti: za nju nije objavljena licenca. Pitali smo Hrvatski geološki institut, i otključat će se ovdje čim to potvrdi."
     },
     "is": {
       "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Landsskrá yfir friðlýst náttúrusvæði, þjóðlega vistfræðinetið, jarðfræðikortið 1:100.000, jarðvárkortið og kortið yfir umframvatn eru á listanum en ekki er enn hægt að opna þau: leyfi þeirra heimila greiddu appi ekki enn skýrt að sýna þau. Við höfum spurt ráðuneytið, SZTFH og Lechner, og þau verða opnuð hér um leið og það hefur verið staðfest.",
@@ -2093,11 +2098,14 @@
     },
     "lt": {
       "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Nacionalinis saugomų gamtinių teritorijų registras, nacionalinis ekologinis tinklas, 1:100 000 geologinis žemėlapis, geologinių pavojų žemėlapis ir vidaus vandenų pertekliaus žemėlapis yra sąraše, tačiau jų dar negalima atidaryti: jų licencijos dar aiškiai neleidžia jų rodyti mokamoje programėlėje. Kreipėmės į ministeriją, SZTFH ir Lechner, ir jie bus atrakinti čia, kai tik tai bus patvirtinta.",
-      "Földtan, földtani veszélyek és erdők": "Geologija ir geologiniai pavojai"
+      "Földtan, földtani veszélyek és erdők": "Geologija ir geologiniai pavojai",
+      "Europos Bendrijos svarbos buveinės, nacionalinė buveinių inventorizacija, pelkės ir durpynai, o kai leis Valstybinė miškų tarnyba, ir kertinės miško buveinės, miškų grupės bei valstybinės reikšmės miškai.": "Europos Bendrijos svarbos buveinės, nacionalinė buveinių inventorizacija, pelkės ir durpynai, kertinės miško buveinės, miškų grupės bei valstybinės reikšmės miškai.",
+      "Kultūros vertybių registro objektai ir jų apsaugos zonos. Šie sluoksniai atsidarys, kai Kultūros paveldo departamentas leis juos naudoti mokamoje programėlėje.": "Kultūros vertybių registro objektai ir jų apsaugos zonos. Prieš planuodami darbus, patikrinkite vertybės duomenis Kultūros vertybių registre."
     },
     "lv": {
       "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Valsts aizsargājamo dabas teritoriju reģistrs, nacionālais ekoloģiskais tīkls, ģeoloģiskā karte mērogā 1:100 000, ģeoloģisko risku karte un lieko iekšzemes ūdeņu karte ir sarakstā, taču tās vēl nevar atvērt: to licences vēl skaidri neatļauj tās rādīt maksas lietotnē. Esam vērsušies ministrijā, SZTFH un Lechner, un tās šeit tiks atbloķētas, tiklīdz tas tiks apstiprināts.",
-      "Földtan, földtani veszélyek és erdők": "Ģeoloģija un ģeoloģiskie riski"
+      "Földtan, földtani veszélyek és erdők": "Ģeoloģija un ģeoloģiskie riski",
+      "Water protection zones, heritage, spatial plans, invasive species and marine habitats are listed but cannot be opened yet: their publishers' own records give no clear licence. We have asked each of them, and the layers unlock here the moment one says yes.": "Ūdeņu aizsargjoslas, kultūras mantojums un teritorijas plānojumi ir norādīti sarakstā, bet tos vēl nevar atvērt: to publicētāju pašu datos nav norādīta skaidra licence. Esam jautājuši katram no tiem, un slāņi šeit atbloķēsies, tiklīdz kāds no tiem piekritīs."
     },
     "nb": {
       "The national register of protected natural areas, the national ecological network, the 1:100,000 geological map, the geological hazard map, the inland excess water map and the forest stands are listed but cannot be opened yet: their licences do not yet clearly allow a paid app to show them. We have asked the ministry, SZTFH, Lechner and NÉBIH, and they unlock here the moment it is confirmed.": "Det nasjonale registeret over verneområder, det nasjonale økologiske nettverket, det geologiske kartet i 1:100 000, kartet over geologiske farer og overvannskartet er oppført, men kan ikke åpnes ennå: lisensene deres tillater ennå ikke tydelig at en betalt app viser dem. Vi har spurt departementet, SZTFH og Lechner, og de låses opp her så snart det er bekreftet.",
@@ -2138,11 +2146,13 @@
     },
     "de": {
       "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Beobachtete Rutschungen, Senkungen und Einbrüche, die geologische Karte Ungarns 1:100.000 und die geologische Gefahrenkarte (für die letzten beiden steht die Erlaubnis noch aus).",
-      "Földtan, földtani veszélyek és erdők": "Geologie und Georisiken"
+      "Földtan, földtani veszélyek és erdők": "Geologie und Georisiken",
+      "No wildlife corridors: their publisher states no licence. Nature parks, approved PAP and some geology, radon, flood and land-consolidation layers are listed but held until their terms are confirmed.": "Keine Wildtierkorridore: Ihr Herausgeber nennt keine Lizenz. Naturparke sowie einige Ebenen zu Geologie, Radon, Hochwasser und Flurbereinigung sind aufgeführt, lassen sich aber erst öffnen, wenn ihre Bedingungen bestätigt sind."
     },
     "de-CH": {
       "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Beobachtete Rutschungen, Senkungen und Einbrüche, die geologische Karte Ungarns 1:100.000 und die geologische Gefahrenkarte (für die letzten beiden steht die Erlaubnis noch aus).",
-      "Földtan, földtani veszélyek és erdők": "Geologie und Georisiken"
+      "Földtan, földtani veszélyek és erdők": "Geologie und Georisiken",
+      "No wildlife corridors: their publisher states no licence. Nature parks, approved PAP and some geology, radon, flood and land-consolidation layers are listed but held until their terms are confirmed.": "Keine Wildtierkorridore: Ihr Herausgeber nennt keine Lizenz. Naturparke sowie einige Ebenen zu Geologie, Radon, Hochwasser und Flurbereinigung sind aufgeführt, lassen sich aber erst öffnen, wenn ihre Bedingungen bestätigt sind."
     },
     "es": {
       "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Deslizamientos, subsidencias y hundimientos observados, el mapa geológico 1:100.000 de Hungría y el mapa de peligros geológicos (estos dos últimos, a la espera de permiso).",
@@ -2154,7 +2164,8 @@
     },
     "fr": {
       "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Glissements de terrain, affaissements et effondrements observés, la carte géologique de la Hongrie au 1:100 000 et la carte des aléas géologiques (ces deux dernières couches attendent une autorisation).",
-      "Földtan, földtani veszélyek és erdők": "Géologie et risques géologiques"
+      "Földtan, földtani veszélyek és erdők": "Géologie et risques géologiques",
+      "No wildlife corridors: their publisher states no licence. Nature parks, approved PAP and some geology, radon, flood and land-consolidation layers are listed but held until their terms are confirmed.": "Pas de corridors faunistiques : leur éditeur n’indique aucune licence. Les parcs naturels et certaines couches de géologie, de radon, d’inondation et de remembrement sont répertoriés mais ne pourront être ouverts qu’une fois leurs conditions confirmées."
     },
     "hu": {
       "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe és a földtani veszélyforrások (az utolsó kettő engedélyre vár).",
@@ -2162,7 +2173,8 @@
     },
     "it": {
       "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Frane, subsidenze e sprofondamenti osservati, la carta geologica dell'Ungheria 1:100.000 e la carta dei pericoli geologici (le ultime due sono in attesa di autorizzazione).",
-      "Földtan, földtani veszélyek és erdők": "Geologia e rischi geologici"
+      "Földtan, földtani veszélyek és erdők": "Geologia e rischi geologici",
+      "The Ministry of Culture's heritage layers (Vincoli in Rete), the Carta della Natura habitats and the Important Bird Areas are listed but cannot be opened yet: their terms do not yet clearly allow a paid app to show them. They unlock here the moment that is confirmed.": "Gli habitat della Carta della Natura e le Important Bird Areas (IBA) sono elencati ma non si possono ancora aprire: le loro condizioni non consentono ancora chiaramente a un'app a pagamento di mostrarli. Si sbloccheranno qui non appena ciò sarà confermato."
     },
     "nl": {
       "Megfigyelt csuszamlások, süllyedések és beszakadások, Magyarország 1:100 000-es földtani térképe, a földtani veszélyforrások és az erdőrészletek (az utolsó három engedélyre vár).": "Waargenomen aardverschuivingen, bodemdalingen en instortingen, de geologische kaart van Hongarije 1:100.000 en de kaart van geologische gevaren (de laatste twee zijn in afwachting van toestemming).",
@@ -2175,7 +2187,8 @@
       "Földtan, földtani veszélyek és erdők": "Geologie și riscuri geologice"
     },
     "bg": {
-      "Földtan, földtani veszélyek és erdők": "Геология и геоложки опасности"
+      "Földtan, földtani veszélyek és erdők": "Геология и геоложки опасности",
+      "Кадастралните имоти с Натура 2000, забраните в защитените зони, имотите от заповедите, районите с риск от наводнения и горските територии (горските територии чакат разрешение). Първи поглед върху парцел.": "Кадастралните имоти с Натура 2000, забраните в защитените зони, имотите от заповедите, районите с риск от наводнения и горските територии. Първи поглед върху парцел."
     }
   },
   "minAppVersion": "2.6.1",
