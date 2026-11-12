@@ -1722,7 +1722,9 @@
     "at_tirol_bannwald": 1,
     "at_tirol_denkmalschutz": 7,
     "at_tirol_ortsbildschutz": 3,
-    "at_tirol_geotope": 1
+    "at_tirol_geotope": 1,
+    "en_consarea_he": 128,
+    "en_lpa_ons": 203
   },
   "presetAdds": [
     {
