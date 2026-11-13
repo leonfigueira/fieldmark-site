@@ -1535,7 +1535,8 @@
     "jp_shinrin_mesh",
     "lv_invazivie_augi",
     "lv_invazivie_dzivnieki",
-    "lv_juras_biotopi"
+    "lv_juras_biotopi",
+    "it_carta_natura_habitat"
   ],
   "patches": [
     {
@@ -1712,6 +1713,10 @@
         "pt-BR": "Sites and Monuments Record (SMR) da Irlanda: 151.308 monumentos registrados como pontos, com a respectiva classe e townland. O SMR é a listagem básica do National Monuments Service: a proteção legal decorre do Record of Monuments and Places, do Register of Historic Monuments, da propriedade ou tutela do Estado, ou de uma preservation order. Consulte também as camadas SMR Zones e RMP.",
         "pt-PT": "Sites and Monuments Record (SMR) da Irlanda: 151.308 monumentos registados como pontos, com a respetiva classe e townland. O SMR é a listagem básica do National Monuments Service: a proteção legal decorre do Record of Monuments and Places, do Register of Historic Monuments, da propriedade ou tutela do Estado, ou de uma preservation order. Consulte também as camadas SMR Zones e RMP."
       }
+    },
+    {
+      "id": "it_carta_natura_habitat",
+      "attribution": "ISPRA, Sistema Carta della Natura, CC BY 4.0"
     }
   ],
   "offlineEstimates": {
